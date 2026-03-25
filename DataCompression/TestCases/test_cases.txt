@@ -1,0 +1,49 @@
+
+
+[CASE 01] Tiny repeated pattern
+TYPE: repetitive
+DATA: aaaaaaaa
+
+[CASE 02] Tiny mixed letters
+TYPE: short mixed
+DATA: abracadabra
+
+[CASE 03] No repetition (small)
+TYPE: mostly unique
+DATA: abcdefghijklmnopqrstuvwxyz
+
+[CASE 04] Repeated word blocks
+TYPE: repetitive words
+DATA: catcatcatcatcatdogdogdogdogcatcatcat
+
+[CASE 05] Sentence with spaces/punctuation
+TYPE: natural text
+DATA: This is a simple sentence. This is a simple sentence. This is a simple sentence.
+
+[CASE 06] Alternating pattern (medium)
+TYPE: periodic
+DATA: ABABABABABABABABABABABABABABABABABABABABABABABAB
+
+[CASE 07] Repeated chunk (medium)
+TYPE: chunk repetition
+DATA: LoremIpsum123_LoremIpsum123_LoremIpsum123_LoremIpsum123_LoremIpsum123_LoremIpsum123_
+
+[CASE 08] Mixed symbols/numbers (medium)
+TYPE: mixed charset
+DATA: A1!B2@C3#D4$E5%F6^G7&H8*I9(J0)A1!B2@C3#D4$E5%F6^G7&H8*I9(J0)
+
+[CASE 09] Long highly repetitive
+TYPE: high compression expected
+DATA: ABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGHABCDEFGH
+
+[CASE 10] Long low-repetition alphanumeric
+TYPE: lower compression expected
+DATA: q1w2e3r4t5y6u7i8o9p0asdfghjklzxcvbnmQ1W2E3R4T5Y6U7I8O9P0ASDFGHJKLZXCVBNM1234567890poiuytrewqlkjhgfdsamnbvcxz0987654321
+
+[CASE 11] Larger natural-like text block
+TYPE: natural paragraph
+DATA: data compression is useful when data compression is useful because repeated sequences can be encoded efficiently and data compression benchmarks should include repeated data and varied data so we can compare best case and average case behavior across different inputs and sizes
+
+[CASE 12] Very repetitive large-ish block
+TYPE: stress repetitive
+DATA: XYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZXYZ

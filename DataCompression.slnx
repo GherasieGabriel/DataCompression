@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DataCompression/DataCompression.vcxproj" Id="10a5279c-342f-4715-8336-aff8b9579f9c" />
+</Solution>
