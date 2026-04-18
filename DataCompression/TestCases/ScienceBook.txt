@@ -1,0 +1,2628 @@
+Our High-Energy Universe
+This book is supported by the University of Maryland, College Park as part of the Center for Research
+and Exploration in Space Science and Technology (CRESST) II project. The material is based upon
+work supported by the National Aeronautics and Space Administration (NASA) award number
+80GSFC21M0002.
+Cover Art Credit: NASA/Sonoma State University, Aurore Simonnet
+01 Our High-Energy Universe www.nasa.gov
+Our universe is full of wonder and mystery. There are blinding novae, massive black holes, and
+an unfathomable number of galaxies with an incomprehensible number of stars. Scientists
+study these mysteries and countless others, working to enhance our understanding of the
+universe we call home. For 15 years, NASA’s Fermi Gamma-ray Space Telescope has been
+an integral part of the mission of scientific exploration. This e-book will guide you from the
+telescope’s inception and construction to its daily operations and untold discoveries. You will
+journey across the universe, from our planet to distant galaxies, learning about gamma-ray
+astrophysics and Fermi’s contributions along the way. Importantly, you will learn that Fermi’s
+mission is far from over; there are many more questions to be asked and Fermi is already at
+work answering them. So join us on this journey through the cosmos and get ready to learn
+more about the incredible inner workings of our high-energy universe.
+www.nasa.gov Our High-Energy Universe 02
+0303 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 04
+This illustration shows two merging neutron stars. The rippling space-time grid represents
+gravitational waves that travel out from the collision, while the narrow beams show the burst of
+gamma rays that are shot out just seconds after the gravitational waves. Swirling clouds of material
+ejected from the merging stars are also depicted, glowing with visible and other wavelengths of
+light.
+Credit: National Science Foundation/LIGO/Sonoma State University/A. Simonnet
+Table of Contents
+Introduction 07
+Observatory Design 17
+Operations 27
+Journey Through the Cosmos 37
+Fermi’s Namesake 10
+Gamma Rays 12
+Seeing the Light 12
+What Are Gamma Rays? 13
+Multimessenger Astronomy 15
+05 Our High-Energy Universe www.nasa.gov
+Earth 39
+Terrestrial Gamma-ray Flashes 40
+Behind the Curtain 28
+How Scientists Use Fermi 31
+Visualizing Gamma Rays 34
+Earth’s Limb 41
+Local Electrons and Positrons 42
+Solar System 43
+Sun and Moon 44
+Solar Flares 46
+The Galaxy 48
+Galactic Diffuse Emission 49
+Gamma-ray Pulsars 50
+Spider Binaries 51
+Transitional Pulsars 53
+Einstein@Home 55
+Pulsar Timing Array 56
+Supernova Remnants 57
+Looking to Fermi’s Future 87
+Glossary 97
+Acknowledgements 113
+Index 111
+www.nasa.gov Our High-Energy Universe 06
+Novae 59
+Fermi Bubbles 61
+Magnetars 65
+Galactic Center 66
+Nearby Galaxies 67
+Radio Galaxies 68
+Dwarf Spheroidal Galaxies 69
+Andromeda Galaxy (M31) 70
+The Distant Universe 72
+Blazars 73
+ Diving Deeper: Flare 3C 279 75
+ Diving Deeper: Understanding Jets 76
+ Diving Deeper: Neutrinos 77
+ Diving Deeper: Radio Collaboration 78
+Gamma-ray Bursts 80
+ Diving Deeper: The BOAT 82
+ Diving Deeper: Gravitational Wave Counterparts 83
+ Diving Deeper: Lorentz Invariance Violation 85
+Extragalactic Background Light 86
+Observing the Extraordinary 89
+Pioneering Multimessenger Astronomy 91
+Asking the Big Questions 94
+Exploring the Unknown Unknowns 96
+Crab Nebula 60
+Watch a cosmic gamma-ray fireworks show in this animation using data from Fermi’s Large Area
+Telescope (LAT) from February 2022 to February 2023. Each object’s magenta circle grows as the
+source brightens and shrinks as it dims. The yellow circle represents the Sun following its apparent
+annual path across the sky. The animation shows a subset of the LAT gamma-ray records now
+available for more than 1,500 objects.
+Credit: NASA’s Marshall Space Flight Center/Daniel Kocevski
+Introduction
+07 Our High-Energy Universe www.nasa.gov
+Scientists and their families watch
+the GLAST launch from NASA’s
+Goddard Space Flight Center on
+June 11, 2008.
+Credit: National Archives
+(255-GSD-G-2008-0298-019)
+www.nasa.gov Our High-Energy Universe 08
+On sunny June 11, 2008, NASA’s Gamma-ray Large Area Space Telescope (GLAST) launched from
+Cape Canaveral on Florida’s eastern coast. The telescope soared above anxious crowds and into
+the clouds on a Delta II rocket until it reached its destination safely, 350 miles above Earth. For the
+next two months, scientists tested and calibrated GLAST’s instruments as the telescope orbited
+Earth every 96 minutes. The telescope worked as planned. On August 26, 2008, it adopted a new
+name chosen through a public competition: the Fermi Gamma-ray Space Telescope, named for
+pioneering physicist Enrico Fermi. Though its primary mission was to last five years, the spacecraft
+has surpassed all hopes and expectations, reaching 15 years of operation with no sign of slowing
+down. Every day, Fermi provides unprecedented gamma-ray data that shapes groundbreaking
+discoveries for astronomers and astrophysicists around the world.
+Scientists began conceptualizing the nearly $1 billion Fermi satellite more than 16 years before its
+launch. The astronomical community had long wanted a telescope to better study high-energy
+physics, a desire only heightened by the retirement and intentional deorbiting of NASA’s Compton
+Gamma Ray Observatory in 2000. NASA built Fermi as Compton’s direct descendent, with a team
+that included many of the same people who worked on Compton. Fermi has always been an
+international collaborative effort, with important contributions from the U.S. Department of Energy
+and partners and academic institutions in France, Germany, Italy, Japan, and Sweden. When Fermi
+began operations in 2008, the speed and depth of its observations astounded scientists. In just 95
+hours, Fermi generated a map of the gamma-ray sky that took years for Compton to produce.
+Fermi studies some of the highest-energy light in
+the universe: gamma rays. We can’t see gamma
+rays with our unaided eyes. Earth’s atmosphere
+protects us from the damaging nature of highenergy light, but it also prevents ground-based
+telescopes from observing it directly. Fermi
+provides a unique view of the universe and allows
+us to study some of its most curious phenomena.
+Fermi’s position in low-Earth orbit enables it to
+detect thousands of gamma-ray sources and
+reveal new high-energy discoveries. Fermi is the
+first imaging gamma-ray telescope to survey the
+entire sky each day, with one full survey taking
+only three hours. Importantly, Fermi does not work
+alone; some of its important discoveries have
+also relied on observations from the likes of
+NASA’s Neil Gehrels Swift Observatory, Hubble
+Space Telescope, and James Webb Space
+Telescope.
+Fermi’s groundbreaking observations enable us
+to study phenomena from cosmic rays and dark
+matter to colliding neutron stars and gigantic
+gamma-ray-emitting structures in our Milky
+Way galaxy known as the Fermi Bubbles. Today,
+scientists carry out research at the forefront of
+astronomy and astrophysics using Fermi, and will
+continue to do so as we keep probing the wonders
+of our high-energy universe.
+NASA’s Gamma-Ray Large Area Space Telescope (GLAST) launched from Cape Canaveral Air Force
+Station’s Launch Pad 17-B at 12:05pm EDT on June 11, 2008.
+Credit: NASA/Jerry Cannon, Robert Muray
+09 Our High-Energy Universe www.nasa.gov
+Enrico Fermi was a pioneer of high-energy physics and
+is the namesake for NASA’s premier gamma-ray space
+telescope.
+Credit: National Archives (434-OR-7(24))
+www.nasa.gov Our High-Energy Universe 10
+The Fermi mission undertook great efforts to select a name for the pioneering GLAST satellite.
+Enrico Fermi, a trailblazer in high-energy physics, was ultimately the right fit.
+Enrico Fermi was born on September 29, 1901, in Rome, Italy. The son of a railway inspector and a
+schoolteacher, he showed promise in math and physics from an early age, completing his Ph.D.
+in physics by age 21. In 1926, Fermi discovered the laws that govern a type of subatomic particle
+now called fermions. He spent much of his early career studying general relativity and statistical
+and quantum mechanics. In 1934, Fermi showed that almost every element can undergo nuclear
+transformation when bombarded with neutrons, a discovery that helped lead to nuclear fission
+— the process that drives nuclear power plants. He received the Nobel Prize in Physics in 1938 and
+immigrated to the United States shortly thereafter. At the University of Chicago, Fermi directed
+a series of experiments that led to the first sustained nuclear chain reaction. As an expert on
+nuclear physics, Fermi was invited to become the associate director of the Manhattan Project
+at Los Alamos National Laboratory in New Mexico and was present for the Trinity test, where he
+calculated the force of the first atomic detonation. When he returned to Chicago in 1945, he turned
+his sights to high-energy physics — specifically, the origin of cosmic rays and subatomic particles.
+Fermi passed away from cancer on November 28, 1954, in Chicago. He is remembered as a
+brilliant theoretical and experimental physicist. His legacy lives on in institutions such as the
+Fermi National Accelerator Laboratory outside Chicago; honors such as the U.S. Department of
+Energy’s prestigious Enrico Fermi Award for science and technology; fermium, the 100th element in
+the periodic table; and the Fermi Gamma-ray Space Telescope.
+Fermi’s Namesake
+Fun Fact:
+An Incredible Name
+About four months before Fermi, then called GLAST, launched into space, NASA put out a public
+request: help name the observatory. NASA wanted a name that would engage the public in gammaray science while conveying the excitement of the mission. The name also needed to be catchy,
+easy to say, and a good candidate for dinner table and classroom discussions.
+While Enrico Fermi, the eventual namesake, would grant the observatory a name fitting all those
+criteria, the public had another candidate in mind. When results rolled in, one name kept appearing:
+The Incredible Hulk. While not a scientific figure, the Hulk brought gamma-ray science to the public
+over four decades before Fermi’s historic mission began. In the popular comic series, a physicist
+named Bruce Banner gets transformed into the Hulk due to an accident involving gamma rays.
+This creative, if scientifically untrue, use of gamma rays in popular culture is an example of just how
+compelling high-energy science can be. While the observatory doesn’t carry his name, we can
+thank Hulk for making people all over the world aware of the fascinating world of gamma rays – a
+goal Fermi hopes to advance.
+11 Our High-Energy Universe www.nasa.gov
+ An illustration of the Fermi spacecraft.
+Credit: NASA
+Gamma Rays
+Seeing the Light
+If you’ve ever made a phone call or seen a sunset, you’ve interacted with radiation. Radiation is
+the name for energy that moves from one place to another in a form that can be described
+as particles or waves. There are many types of radiation, and electromagnetic radiation —
+radiation that has both electric and magnetic fields — is represented on what’s known as the
+electromagnetic spectrum. The scale on the electromagnetic spectrum is often in wavelengths,
+or the distance between peaks (or troughs) of each wiggle of a wave of radiation, which directly
+translates to energy. The scale can also be in the wave’s frequency or energy. You may already
+think of sound or light as traveling in waves, but this is true for all electromagnetic radiation; each
+type has a characteristic band of wavelengths that scientists can use to identify it.
+Visible light is only one part of the electromagnetic spectrum, encompassing all that we see with
+our eyes. The band of wavelengths for visible light is typically 380 to 700 nanometers, with energies
+from 3.3 to 1.8 electron volts, respectively. Stars, galaxies, and material around black holes in
+our universe emit radiation with wavelengths and energies far outside the range of visible light.
+Telescopes help us view this radiation and piece together the hidden picture our universe is showing
+us.
+The electromagnetic spectrum, showing the frequency of light waves at the top and the relative
+size of photons at the bottom. Gamma rays are the highest-energy form of light and span over
+eight orders of magnitude.
+Credit: NASA and the Space Telescope Science Institute
+www.nasa.gov Our High-Energy Universe 12
+Gamma rays are especially hard to understand because they are the form of electromagnetic
+radiation with which most people have the least familiarity. We use radio waves to play music in
+our cars, microwaves to cook our food, and X-rays to look at our bones; we feel infrared waves as
+heat from the radiator in the winter and ultraviolet rays from the sun in the summer. Of course, we
+see visible light, which lends itself exceedingly well to space images from telescopes like Hubble.
+Gamma rays are the least present in our everyday life, and we should be thankful — their radiation
+is harmful to our bodies.
+Fermi is specifically designed to capture gamma rays, the type of electromagnetic radiation
+with the shortest wavelengths (fewer than 0.01 nanometers) and highest energies (greater than
+500,000 electron volts). In fact, while the lower-energy boundary of gamma rays overlaps with
+the highest-energy X-rays, there is no known limit to how energetic a gamma ray can be. Fermi’s
+range spans over eight orders of magnitude, and some observatories that study very high-energy
+gamma-rays have seen even more energetic particles than that! Gamma rays come from the
+hottest and most energetic objects in our universe, like neutron stars and the regions around
+black holes. Radioactive materials and thunderstorms also generate gamma rays here on Earth.
+If we were to see the night sky in gamma rays, it would be unfamiliar to us. Each time we looked
+upward, we would spot new sources of gamma rays among a consistent spattering of shining dots.
+Our Milky Way would glow constantly, and roughly once a day, a bright gamma-ray burst would
+catch our eye, lasting from fractions of a second to minutes. One might think of a cosmic firework
+show more than the starry constellations that have become familiar.
+Since gamma-ray wavelengths are so short, they cannot be captured and reflected by mirrors, a
+crucial part of observatories like NASA’s Hubble and Webb. Gamma rays would pass right through
+the spaces between the mirrors’ atoms! Furthermore, Earth’s atmosphere absorbs gamma rays,
+preventing scientists from building observatories on the ground that detect them directly. Fermi and
+previous gamma-ray observatories have had to take a different approach with the instruments
+they design to record gamma rays and reveal the mysteries our universe holds.
+What Are Gamma Rays?
+13 Our High-Energy Universe www.nasa.gov
+A gif of the gamma-ray
+sky as it might appear over
+the course of a year.
+Credit: NASA’s Goddard
+Space Flight Center Scientific
+Visualization Studio
+www.nasa.gov Our High-Energy Universe 14
+An artist’s rendering of the jet of a gamma-ray burst breaking out of a collapsing star.
+Credit: DESY, Science Communication Lab
+Multimessenger Astronomy
+Scientists use light across the electromagnetic spectrum to learn about the wonders of space.
+There are also cosmic signals outside of light that can tell us fascinating things. Light and other
+signals are powerful on their own, but they are even more illuminating when used together. We
+can think of them like our senses. On its own, the sense of sight is powerful — it can give us a sense
+of what an object is (for example, a radio). Combining sight with hearing can tell us both what
+the object is, and what it is doing (for example, a radio that is playing the jazz station). Using this
+technique in astronomy is known as multimessenger astronomy, and it is one of Fermi’s most
+important areas in science.
+The most common messengers are light, particles, and gravitational waves. Telescopes like
+Hubble, Webb, and Fermi detect light. Sensitive particle detectors exist on Earth and in space
+to catch neutrinos, highly energetic particles formed when cosmic rays interact. Gravitational
+wave detectors on Earth measure the ripples in space-time that travel across the universe.
+Scientists have also devised clever ways to search for gravitational waves using radio and
+gamma-ray telescopes. When scientists work together across all three messengers, we learn
+more about the universe than we can working independently. Collaboration is crucial for
+interpreting all the information that the universe is sending us.
+15 Our High-Energy Universe www.nasa.gov
+An animation of three messengers in multimessenger astronomy as they travel through space.
+Particles are shown on top, light in the middle, and gravitational waves on the bottom.
+Credit: NASA’s Goddard Space Flight Center
+www.nasa.gov Our High-Energy Universe 16
+Fun Fact:
+A Curious Kind of Constellation
+Within the first decade of Fermi’s mission, the science team had cataloged more than
+3,000 individual gamma-ray sources — comparable to the number of bright stars that
+make up the constellations. To celebrate the achievement, the Fermi team created 21 of
+their own, unofficial constellations. What appear as “stars” in these constellations are in
+fact different bright gamma-ray sources like blazars, pulsars, and even normal galaxies
+similar to our Milky Way. Since we can’t see gamma rays with our own eyes, we can only
+imagine the Fermi constellations as invisible shapes against our usually dark night sky.
+Some of the most popular Fermi constellations are Godzilla, the USS Enterprise from
+“Star Trek,” the TARDIS from “Doctor Who,” and the Incredible Hulk. Some constellations
+give nods to Fermi’s partner nations, like Mt. Fuji to represent Japan and the Colosseum
+to represent Italy. Still others reference high-energy science, like Albert Einstein and a
+black widow spider, which references a type of star system where one star slowly devours
+another. The Fermi spacecraft itself makes an appearance, its solar panels stretched
+wide. The goal of the Fermi constellations is to celebrate the observatory’s exciting
+discoveries, and to engage the public by tying pop culture to the frontier of
+gamma-ray science.
+To celebrate the mission’s 10th year of operations, the Fermi team devised a set of
+unofficial gamma-ray constellations, some of which are shown above. The prominent red
+band is the plane of our Milky Way; bright colors indicate brighter gamma-ray sources.
+Credit: NASA
+Observatory Design
+17 Our High-Energy Universe www.nasa.gov
+The Fermi Gamma-ray Space Telescope when it was still GLAST, installed in the Delta II rocket that
+would carry it into space.
+Credit: NASA/Jim Grossman
+Engineers assemble Fermi’s Large Area Telescope (LAT) instrument.
+Credit: Courtesy of SLAC Communications
+www.nasa.gov Our High-Energy Universe 18
+Hundreds of scientists and engineers collaborated to design and build an observatory that could
+meet the challenges of studying gamma rays. The technology had to be sensitive enough to
+detect the smallest-wavelength and highest-energy radiation, all while withstanding the harsh
+temperature, pressure, and radiation of space.
+Not including its antenna and solar arrays, Fermi is 9.2 feet (2.8 meters) tall and 8.2 feet (2.5 meters)
+wide — about as tall as an ostrich and as wide as a school bus. With the solar arrays, Fermi is as big
+as a tennis court. Fermi weighs three tons and has nearly a million electronic channels. Despite its
+size, Fermi uses less energy than the average hair dryer. This is thanks to its low-power electronics,
+some of which engineers designed just for Fermi. Fermi’s technology allowed for an impressive
+jump in the frequency and accuracy of gamma-ray observations over previous telescopes.
+19 Our High-Energy Universe www.nasa.gov
+To capture and record elusive gamma rays, Fermi has two instruments: the primary Large Area
+Telescope (LAT) and the complementary Gamma-ray Burst Monitor (GBM). Scientists and
+engineers designed these instruments to survey the whole sky continuously to catch as many
+gamma rays as possible. The LAT views about one-fifth of the entire sky at all times, with the
+ability to locate bright gamma-ray sources to within one arcminute (about 1/30th the apparent
+diameter of the full Moon). The GBM can see two-thirds of the entire sky at any time, since Earth
+blocks the other third from view.
+The LAT is a pair-production telescope, which works by converting gamma rays into pairs of
+electrons and positrons, the antimatter counterpart of the electron. When a gamma ray enters
+the telescope, it passes through many sheets of thin tungsten metal, which converts it into such
+a pair. A part called the tracker, composed of silicon detectors interleaved with the tungsten
+sheets, measures the path of the particle pair to determine the direction from which it entered
+the LAT. Next, the pair enters a device called the calorimeter, which measures the energies of
+the particles and — through conservation of energy — the original gamma ray’s energy. The
+calorimeter is made of cesium iodide and works by producing a blue glow with intensity
+proportional to the energy of the particle pair. The LAT is around 30 times more sensitive than any
+previous space-based gamma-ray instrument.
+Pair production occurs when a gamma ray grazes an atom and interacts with it. The reaction
+annihilates the gamma-ray photon and creates an electron and a positron — a matter/antimatter
+pair. The light energy converts into matter according to Einstein’s famous equation, E=mc2.
+Credit: NASA’s Goddard Space Flight Center
+One of the biggest challenges with detecting gamma rays is knowing what to filter out. Cosmic
+rays, highly energetic particles moving near the speed of light, can mask the fluxes of gamma
+rays that hit the LAT. For every gamma ray that enters Fermi, 100,000 to 1,000,000 cosmic rays do,
+too! Therefore, the LAT is built to reject 99.999% of the signals that cosmic rays generate. To do
+this, before hitting the main part of the instrument, all particles first enter an apparatus called the
+anticoincidence detector (ACD), the first line of defense against cosmic rays. Since cosmic rays
+are charged and gamma rays are not, cosmic rays passing through this detector produce a signal
+that tells the LAT to reject those data. The ACD is not perfect though, and some cosmic rays still
+sneak by. As the cosmic rays pass through the rest of the instrument, they leave additional clues
+(such as their shape and energy) that allow software to filter them out of the gamma-ray data.
+The carefully engineered system enables Fermi to identify the signals that come from gamma rays,
+and uncover our universe’s high-energy mysteries.
+www.nasa.gov Our High-Energy Universe 20
+Cosmic rays (blue) wander randomly through the galaxy, while gamma rays (magenta) travel
+to Earth straight from their source.
+Credit: NASA’s Goddard Space Flight Center
+The LAT primarily operates in “sky-survey mode.” When surveying, the LAT views the entire sky in
+only three hours, detecting gamma rays with energies from 20 million to more than 300 billion
+electron volts. Fermi can also target specific areas of the sky for more focused observations. The
+U.S. Department of Energy and NASA collaborated to fund the LAT’s development, with important
+contributions from academic institutions and partners in France, Italy, Japan, Sweden, and the
+United States.
+In Palestine, Texas, on Aug. 4, 2001 — nearly seven years before launch — scientists flew a prototype
+of the LAT to around 100,000 feet via a scientific balloon to test its ability to operate in space-like
+conditions. This step is a crucial proof of concept when engineering a new type of space instrument.
+To the LAT team’s delight, the instrument operated as planned, signaling that the design worked
+and that the materials could withstand space. This test was made possible through NASA’s Balloon
+Program Office and Columbia Scientific Balloon Facility.
+21 Our High-Energy Universe www.nasa.gov
+Fermi’s LAT detects gamma rays by tracking the electrons and positrons they produce
+after striking layers of tungsten metal. The LAT is built to reject 99.999% of cosmic
+rays, which enter the instrument in significantly greater numbers than gamma rays.
+Credit: NASA’s Goddard Space Flight Center Conceptual Image Lab
+www.nasa.gov Our High-Energy Universe 22
+Fun Fact:
+Dressing to Impress
+The days surrounding Fermi’s launch were full of excitement and anticipation. The engineers
+who had spent years designing and building the telescope hoped everything would work as
+planned, and the scientists were eager to see what Fermi would show them of the gammaray universe. After launch, there was an intricate sequence of instrument tests necessary
+to check the telescope’s condition. The Fermi team was especially anxious to test the LAT,
+Fermi’s primary instrument.
+On the day the LAT was to be turned on, the LAT operations team decided on an unofficial
+dress code to celebrate: Hawaiian shirts. The control room was a blur of color as scientists
+and engineers came in to work flaunting their favorite florals, flip-flops, and leis. When the
+LAT turned on successfully, the team deemed their outfits a good luck charm. Hawaiian shirts
+have been an unofficial uniform for important days in Fermi’s life ever since. After 15 years in
+orbit, the outfits have seemingly remained a good luck charm!
+The Fermi LAT team sporting their unofficial uniforms.
+Credit: Courtesy of Jana Thayer
+Fermi’s GBM also has two high-energy detectors made
+of a compound called bismuth germanate. These detectors
+catch gamma rays from about 150,000 to 30 million electron
+volts, overlapping in range with both the GBM’s low-energy
+detectors and (narrowly) the LAT. They are positioned on
+opposite sides of Fermi, enabling gamma-ray burst
+monitoring for nearly the whole sky at once. Combined, the
+low-energy and high-energy detectors help the GBM detect
+around 240 gamma-ray bursts each year, as well as solar
+flares, terrestrial gamma-ray flashes, and other sparse
+gamma-ray events. NASA’s Marshall Space Flight Center,
+the University of Alabama at Huntsville, and the Max Planck
+Institute for Extraterrestrial Physics in Garching, Germany
+collaborated to develop and construct the GBM.
+This image, taken in May 2008 as the Fermi Gamma-ray Space Telescope was being readied for
+launch, highlights the detectors of the Gamma-ray Burst Monitor (GBM). The GBM is an array of 14
+crystal detectors designed for transient lower-energy gamma-ray outbursts.
+Credit: NASA/Jim Grossman
+23 Our High-Energy Universe w w w . n a s a . g o v
+A Fermi scientist sets up the GBM detectors inside a test chamber at NASA’s Marshall Space Flight
+Center. The chamber is temperature- and pressure-controlled so scientists can ensure the detectors will function well in space.
+Credit: NASA
+As for the GBM, engineers and scientists specifically designed it to
+detect gamma-ray bursts, which are sudden flashes of gamma
+rays that occur about once a day anywhere in the sky. The GBM has
+a total of 12 low-energy detectors that detect gamma rays on the
+lower end of Fermi’s range, 8,000 to 1 million electron volts. These
+detectors are shaped like thin disks and made out of sodium iodide.
+When a low-energy gamma ray enters one of these disk-shaped
+detectors, it produces a faint glow of visible light proportional to the
+energy of the gamma ray, which a sensor called a photomultiplier
+tube registers. Detectors pointed toward the gamma-ray burst glow
+more than detectors pointed away from the burst, since they detect
+more individual photons. Since the GBM detectors are spaced around
+the spacecraft, the instrument compares the rate of flashes from
+multiple detectors to triangulate the direction from where the
+gamma-ray burst came.
+One of the most technically demanding challenges for any spacecraft is its launch into space.
+Situated on a Delta II rocket, Fermi needed to withstand speeding up to 10 times the acceleration
+due to gravity on Earth, which made the three-ton telescope feel like 30 tons. During the launch,
+Fermi also needed to survive acoustic and vibration shocks from the rocket’s roaring and shaking.
+Engineers carefully designed the instruments to withstand temperatures from minus 4 to more
+than 130 degrees Fahrenheit (minus 20 to 54 degrees Celsius), though milder temperatures of 32
+to 68 F (0 to 20 C) are actually experienced in orbit. Though we usually think of launches as hot,
+the instruments sit at the front of the rocket where it pushes through the cold atmosphere. The
+body surrounding Fermi’s instruments and spacecraft is aluminum, and the different parts are
+held together with graphite epoxy — both can withstand the intense heat and vibrations of launch.
+The mechanical structure of the LAT is made of strong carbon fiber. Other exposed surfaces on
+the telescope are covered in thermal control paint or solar cell cover glass, both of which resist
+radiation and heat.
+Before launch, engineers fastened thermal blankets over the telescope to further protect it from
+extreme temperatures. The blankets also protect the spacecraft from micrometeoroids — pieces of
+rock and debris in space that are smaller than grains of sand. Since the instruments must function
+in absolute darkness, if micrometeoroids moving at rapid speeds were to puncture them, they
+would no longer do their jobs. Micrometeoroids could also damage the electronics and detectors
+within the instruments. The multilayered thermal blankets include layers of foam; heat-resistant
+synthetic fiber called Kevlar; ceramic fabric; and Kapton foil, a special, metallic-looking film that can
+withstand temperatures around 750 F (399 C). The blankets help maintain controlled temperatures
+for the instruments while shielding the detectors from micrometeoroid damage.
+www.nasa.gov Our High-Energy Universe 24
+The spacecraft shortly before launch.
+The solar panels are folded at the sides. The
+LAT (top) is covered in a silver micrometeoroid shield to protect the instrument from
+damage in orbit.
+Credit: NASA/DOE/Fermi LAT Collaboration
+25 Our High-Energy Universe w w w . n a s a . g o v
+Fermi also boasts two large solar panels which provide the power for the telescope’s instruments
+and spacecraft systems. Each time the panels come into view of the Sun on the spacecraft’s orbit
+around Earth, they charge the batteries on board with enough energy to keep the instruments
+and spacecraft running. Fermi’s 15 years of operation have proven it to be a well-designed and
+exceptionally reliable spacecraft. In fact, the only piece of hardware that has failed is the device
+that controls the movement of one of the solar panels. In 2018, 10 years after launch, one of the solar
+panels froze in a slightly over-rotated position. This forced the Fermi mission to change the pattern
+of rocking the telescope up and down so the solar panel could view the Sun enough to generate
+sufficient energy for orbit. The team proved their problem-solving ingenuity by making sure Fermi
+could keep viewing as much of the sky as possible regardless of the freeze.
+Over the past 15 years, the LAT and GBM have been responsible for many compelling advances in
+our understanding of high-energy astrophysics. The instruments continue to be in good condition
+and provide scientists with the data they need to study our universe’s most energetic events, from
+black hole mergers to supernovae.
+www.nasa.gov Our High-Energy Universe 26
+Fun Fact:
+Adapting to the Freeze
+Just past 1:00 a.m. on March 16, 2018, the Fermi flight operations team got a concerning
+message: the observatory had entered safe mode. Used only rarely in a telescope’s life, safe
+mode occurs when an issue arises that endangers a spacecraft’s instruments or subsystems.
+It activates software that automatically instructs the observatory to power off its instruments
+and wait for further instructions. Members of the Fermi team rushed to the mission operations
+center at the Goddard Space Flight Center to examine the source of the issue, which turned
+out to be a nonfunctioning part for a solar array called a rotational drive. Fermi gets its daily
+power from batteries powered by two solar arrays, which are angled to receive maximum
+sunlight each time they come into view of the Sun. The drive would not respond to commands,
+meaning that one of the solar panels was effectively frozen.
+One of the most important considerations when building a spacecraft is adaptability. Even
+when a crucial spacecraft element goes awry, it’s the job of scientists and engineers to
+find a way to keep producing valuable science. Such was the case with Fermi: by March 28,
+partial science operations resumed with one fully functioning solar array. The spacecraft
+was tilted at a fixed angle that put the faulty solar array in view of the Sun. The GBM resumed
+functioning that same day, but the LAT was allowed time to reset to its optimal temperature
+before resuming operations on April 8.
+In the years since the freeze, Fermi has continued to produce remarkable science data with
+no other signs of hardware failures. The main change to its operations has been its rocking
+pattern. With one solar array locked in place, there are fewer directions Fermi can point while
+keeping the total generated power the same. This constraint emerges after gamma-ray
+bursts: the LAT used to automatically repoint to follow the afterglow of a very bright burst,
+but no longer does so. Learning to overcome mechanical failures to preserve science is an
+important part of all NASA missions.
+Fermi, illustrated here, scans
+the entire sky every three hours
+as it orbits Earth.
+Credit: NASA’s Goddard Space
+Flight Center
+Operations
+27 Our High-Energy Universe www.nasa.gov
+Fermi mission operators gather in Fermi’s Mission Operations Center at NASA’s Goddard Space
+Flight Center.
+Credit: NASA’s Goddard Space Flight Center
+In a set of interior rooms at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, sit
+numerous old monitors, whirring computers, and racks of servers: the Fermi mission operations
+center. Here, a dedicated team of five — the Fermi flight operations team — works to make sure the
+telescope is properly surveying our high-energy sky.
+Much like doctors, the flight operations team works on call, always ready to communicate with
+the space telescope and tackle any problems that arise. Much of the team’s job involves sending
+commands that tell Fermi how to observe our universe. Fermi orbits Earth every 96 minutes,
+constantly rocking up and down so the LAT can observe the whole sky. Each week, the flight
+operations team receives guidelines from an important group called the Fermi Science Support
+Center (FSSC), which is in charge of the planning and scheduling for Fermi. With help from the LAT
+and GBM teams, the FSSC develops a schedule for how Fermi should rock for optimal observing.
+Prior to 2018, the year of the solar panel freeze, the rocking pattern would also note when the
+telescope should track a specific area of the sky for a few hours or days following a significant
+gamma-ray event.
+After the FSSC relays the schedule, the flight operations team creates commands for the telescope
+that include the schedule, usual spacecraft activities, and any other necessary communications.
+They confirm all these data with a branch of Goddard in White Sands, New Mexico, which manages
+the Tracking and Data Relay Satellite System (TDRSS, pronounced TEE-driss). This is NASA’s network
+of orbiting communications satellites that passes commands and data between Earth and
+other spacecraft, like Fermi. Many telescopes and satellites across NASA and other government
+agencies use TDRSS, so the timing for sending commands must be precise. When the schedule
+gets confirmed, the flight operations team programs it and sends it up to Fermi through TDRSS. The
+whole process, from getting the FSSC schedule to communicating with Fermi, takes about three
+weeks. While Fermi can communicate directly with massive ground-based satellite dishes in NASA’s
+Near Space Network by pointing at Earth, its wealth of science data is too large to transmit without
+TDRSS.
+Behind the Curtain
+www.nasa.gov Our High-Energy Universe 28
+The Fermi Flight Operations team
+discusses plans to avoid a collision
+with defunct satellite Cosmos 1805
+in 2012.
+Credit: NASA’S Goddard Space Flight
+Center
+29 Our High-Energy Universe www.nasa.gov
+In addition to commanding Fermi’s movements, the flight operations team continually checks
+on its health. After receiving health and safety data from the spacecraft, as well as health, safety,
+and scientific data from the instruments, they send it to the SLAC National Accelerator Laboratory,
+a Department of Energy lab operated by Stanford, or to the GBM Instrument Operations Center in
+Huntsville, Alabama. SLAC processes LAT data using a supercomputer in Menlo Park, California,
+while Huntsville processes GBM data. After processing, the groups send the data to the FSSC, which
+receives and distributes all the data to the scientists and engineers who use it. All of Fermi’s data
+are cleaned and made public so that anyone around the world can conduct gamma-ray science.
+The Mission Operations Center sifts through Fermi’s health and safety data to automatically scan
+for anomalies. The Fermi team is constantly refining what the data should look like, and which
+observations should be flagged for oddities. Some of the most important data the flight operations
+team receives concern the thermal range of Fermi’s instruments. Making sure the instruments are
+not overheating is crucial to maximizing their lifespan. If any anomalies occur, temperature-related
+or otherwise, the on-call engineers are quick to address them, often calling in a dedicated Anomaly
+Response Team for backup. The team, which includes the mission director, project scientists, and
+the instrument manufacturers, among others, is trained to deal with high-pressure situations, even
+coming in overnight or on holidays. As the flight operations engineers say, there are things that
+may never fail on Fermi that they have plans to handle.
+The LAT and GBM each have dedicated teams who supervise their instrument’s operations, with the
+LAT instrument operations team located at SLAC in California and Goddard Space Flight Center and
+the GBM instrument operations team working at NASA’s Marshall Space Flight Center in Huntsville,
+Alabama. Many institutes around the world also support the operations of the two instruments.
+Within the LAT and GBM teams, there are important groups called burst and flare advocates. It is
+their job to monitor when Fermi detects short-duration gamma-ray events, also called transients.
+The most common short transients are gamma-ray bursts and solar flares, which can be as fast as
+fractions of a second to minutes. The most common longer transients are extreme brightening of
+blazars, which can last from hours to months. When a transient occurs, Fermi software automatically
+notifies the astronomy community within seconds, and the burst and flare advocates follow up
+with more details and analysis. The advocates work on an on-call schedule to cover all 24 hours of
+the day, checking the Fermi data and analyzing the origin of the gamma rays. The advocates also
+check to see if the origin matches with a known gamma-ray source. Flare and burst advocates
+encourage other telescopes to follow up on Fermi’s discoveries at other energies to get as much
+multiwavelength data as possible on these infrequent events.
+Flare and burst advocates are located all around the globe, from the U.S. to Europe, Africa, and East
+Asia. Being a flare or burst advocate comes with a special advantage: whoever is on call when a
+transient occurs gets dibs on conducting the corresponding science. Many burst advocates are
+graduate students or postdocs, or retired scientists who want to keep being involved in the gammaray world. In Fermi’s first 15 years, the LAT detected 231 gamma-ray bursts, while the GBM detected
+3,538. In the past few years, the Sun has been especially active. Since gravitational wave detectors
+began operating in 2015 to search for small ripples in space-time, the LAT and GBM burst advocates
+have also been helping in the hunt for gamma-ray bursts associated with gravitational waves. Flare
+advocates specifically have been searching for gamma-ray counterparts to the small, energetic
+particles known as neutrinos.
+A visualization showing colliding neutron stars which blast debris away in particle jets moving
+at nearly the speed of light. Such an event produces a brief burst of gamma rays.
+Credit: NASA’s Goddard Space Flight Center/Conceptual Image Lab
+www.nasa.gov Our High-Energy Universe 30
+Since Fermi’s inception, NASA knew it wanted a unique approach to conducting science with the
+observatory. Fermi’s data stands out from observatories around the world for a crucial reason: it
+helped usher in a modern era of astrophysics where everyone has access to the data at the same
+time. Starting from one year after science operations began, all Fermi data has been available for
+download immediately upon processing (the first year was set aside for instrument calibration,
+generating a list of gamma-ray sources to study, and modeling the background levels of gammarays). Previous missions gave the scientist who requested to use the telescope special access to
+the data for at least a year, but Fermi’s model has become standard for NASA missions.
+Fermi generates a lot of complex data. Luckily, it has dedicated team members that work to
+filter it, clean it, publish it, and create tools to help anyone with a computer process it. The Fermi
+Science Support Center leads all of these efforts. At the FSSC, managing Fermi’s data and providing
+instructions on how to use it are some of their most important jobs. Scientists all around the world
+download Fermi’s data to conduct science, and they direct any processing questions to the FSSC’s
+help desk. The gamma-ray science community includes thousands of scientists all over the globe
+training their efforts on the high-energy sky. Altogether, users have downloaded one petabyte of
+data from Fermi — that’s about as much data as 4,000 smartphones can store.
+Fermi’s transparent approach to science has enabled groundbreaking high-energy discoveries to
+happen not just at NASA, but at institutions around the world. The Fermi Bubbles are one example
+of how Fermi’s open-access data policy has been a boon to its scientific impact.
+Another crucial benefit of NASA’s open-access data is its archival nature. Anyone can look back
+in time to see what Fermi viewed on any particular date, enabling scientists to check for a specific
+phenomenon or analyze patterns over long time scales. The LAT archive contains a record of the
+individual gamma-ray photons, the direction they came from in the sky, and their energies, among
+other measurements. The GBM archive contains data about the brightness, energy, duration, and
+detection time of all observed gamma-ray bursts, along with a continuous stream of gamma-ray
+data for other research. The archive also includes data about the spacecraft, such as where it was
+in the sky relative to Earth and where it was pointing during a given observation.
+Unlike observatories like NASA’s Hubble and Webb, Fermi does not train its eye on specific objects.
+This is in large part due to the effectiveness of its all-sky survey mode and large fields of view. When
+Fermi’s LAT used to look at one area of the sky for a few hours or days at a time following a significant
+event, it would miss the interesting gamma-ray signals coming from other angles. This means
+that scientists don’t submit proposals to use time on Fermi — a process that, on other telescopes,
+determines where the telescope will point. This also makes Fermi a much more accessible telescope
+to scientists.
+31 Our High-Energy Universe www.nasa.gov
+How Scientists Use Fermi
+Another way Fermi encourages scientists to get involved with gamma-ray science is through the
+Fermi Guest Investigator (GI) Program, which is managed by the FSSC. The GI Program provides
+funding to U.S.-based scientists for a variety of projects, like conducting investigations using Fermi
+data, designing analysis techniques for Fermi data, or carrying out theoretical investigations that
+support Fermi’s observations. Scientists can also apply for observing time on partner radio, optical,
+X-ray, and gamma-ray observatories, and for high-end computing resources that support their
+research.
+Fermi’s all-sky nature renders it a helpful counterpart to other telescopes’ observations. If, for
+example, the High-Altitude Water Cherenkov Observatory (HAWC) near Puebla, Mexico observes
+a phenomenon in very high-energy wavelengths, the Fermi team can look at their data collected
+at the same time. This process also works in the reverse; if scientists notice an interesting pattern
+caught by Fermi, they can look back at HAWC’s archival data. Astronomers can even go beyond
+archives to request time on other telescopes to look at the same area of the sky where Fermi saw
+something interesting.
+The sprawling archive of available Fermi data has taken gamma rays from a lesser-studied
+wavelength to an important counterpart to observations across the electromagnetic spectrum and
+other astrophysical signals. Open-access data not only expands scientific research on the Fermi
+mission, but signals to the world that gamma-ray science is meant for sharing and collaboration.
+An illustration of Fermi in orbit.
+Credit: NASA’s Goddard Space Flight Center
+www.nasa.gov Our High-Energy Universe 32
+33 Our High-Energy Universe www.nasa.gov
+Fun Fact:
+The Global Gamma-Ray Community
+Around the globe, scientists engage with the fascinating world of gamma rays. Fermi’s public
+archival data enables people from Texas to South Africa to work on high-energy astrophysics,
+regardless of their affiliation with NASA. Based on data downloads recorded by the Fermi Science
+Support Center, here is the breakdown of where people around the world are studying gamma
+rays using Fermi.
+Credit: NASA’s Goddard Space Flight Center/Hannah Richter (SURA)
+Every time an image of space gives you wonder, a team of scientists and visualizers worked
+hard to elicit that emotion. Astrophysics and astronomy are complex fields built on nuanced
+science; making them accessible through imagery and video is an important part of the NASA
+mission.
+Though a flood of visible light permeates the cosmos, gamma rays are few and far between. The
+higher-energy the gamma ray, the more rare it is within our universe. This means that scientists
+can take high-resolution images in visible light, but gamma-ray sources appear blurred. In
+other words, we look at the gamma-ray sky through foggy glasses. As Fermi continues to detect
+gamma rays, its images will sharpen.
+All the information Fermi collects about gamma rays starts out as data: numbers about the
+energy of the light, where it came from, the time at which it was observed, and more. It is the
+scientists’ job to build images and plots based on this data, and the visualizers’ job to make
+these images accessible and eye-catching. Some plots go into peer-reviewed scientific papers,
+and some images are used as communications materials to help audiences understand
+high-energy astrophysics.
+Since we don’t see gamma rays with our own eyes, scientists and graphic designers often
+choose to represent them as blobs or bursts overlaid on visual-light images. Fermi’s
+gamma-ray emission is most often shown in the color magenta. Using this technique helps us
+place the occurrences of gamma rays in the sky, and also provides an opportunity for meaningful
+cross-collaboration with other telescopes.
+Fermi’s most famous LAT image, its all-sky map, depicts gamma-ray sources as bright spots
+against a sky pocked with smaller gamma-ray sources. The orange-red band of gamma rays
+at the center represents what Fermi observes from the central plane of our galaxy. Fiery tendrils
+appear to stretch out from the band, spattering glowing embers in all directions — emissions
+from cosmic rays that are interacting with material in our galaxy. Above and below the galactic
+band, extragalactic gamma-ray sources appear as small dots distributed evenly across the sky.
+Fermi’s all-sky map builds on that created by NASA’s Compton Gamma Ray Observatory, Fermi’s
+predecessor, by adding depth and thousands of new gamma-ray sources. The all-sky map has
+helped to give Fermi a signature look.
+Visualizing Gamma Rays
+www.nasa.gov Our High-Energy Universe 34
+35 Our High-Energy Universe www.nasa.gov
+The gamma-ray sky above 100 megaelectron volts (MeV) as seen by EGRET on NASA’s Compton
+Gamma Ray Observatory (top) and the LAT on Fermi (bottom). Both visualizations were made from
+nine years of science data. Brighter colors indicate greater numbers of gamma rays. The most
+prominent feature is the central plane of the galaxy, which runs across the middle of the map.
+In the bottom visualization, many more bright gamma-ray sources can be seen throughout the
+universe, and the galactic gamma-ray emissions are more refined.
+Credit (top): NASA/EGRET Team. Credit (bottom): NASA/DOE/Fermi LAT Collaboration
+One of Fermi’s most famous illustrations is of the Fermi Bubbles, two giant gamma-ray-emitting
+lobes depicted above in purple.
+Credit: NASA’s Goddard Space Flight Center
+www.nasa.gov Our High-Energy Universe 36
+Some images and videos, like those of Fermi orbiting Earth or of the jets from a blazar, are artistic
+renderings. Without space-based cameras to photograph Fermi, nor the ability to travel to faraway
+gamma-ray sources, we must leave some images up to a combination of science and imagination.
+The Fermi team works with artists to develop beautiful depictions of the universe’s most energetic
+phenomena.
+Graphics are another helpful tool in understanding high-energy astrophysics. Scientists and
+visualizers can use graphs, charts, and symbols to explain a complicated process or new discovery.
+Graphics can be made for a variety of audiences, from scientists to elementary schoolers.
+While Fermi images do not reflect what space “looks” like to us — as only images and videos in
+visible light can — they are still factual depictions of the beauty and science of astronomy. Making
+the non-visible visible is one of the most important parts of Fermi’s mission and has helped expand
+public understanding of fascinating high-energy science.
+37 Our High-Energy Universe www.nasa.gov
+Credit: NASA/Sonoma State
+University, Aurore Simonnet
+This illustration shows a
+gamma-ray-producing outburst on
+the surface of an old, dense star. This
+type of outburst happens in many
+cosmic objects from near to far.
+Credit: NASA’s Goddard Space
+Flight Center/Chris Smith (USRA)
+www.nasa.gov Our High-Energy Universe 38
+Like every NASA mission, Fermi launched with explicit mission objectives. These are goals that help
+scientists cater their research and observations to the questions the observatory was designed to
+answer. Fermi’s five mission objectives are:
+1. Explore the most extreme environments in the universe, where nature harnesses energies far
+ beyond anything possible on Earth.
+2. Search for signs of new laws of physics and what composes the mysterious dark matter.
+3. Explain how black holes accelerate immense jets of material to nearly light speed.
+4. Help crack the mysteries of the stupendously powerful explosions known as gamma-ray bursts.
+ 5. Answer long-standing questions across a broad range of topics, including solar flares, pulsars,
+ and the origin of cosmic rays.
+Over Fermi’s first 15 years in orbit, astronomers and astrophysicists have made invaluable progress
+toward each of these objectives. As is typical of science, though, each new answer opened even
+more questions!
+The following sections take you on a journey from Earth, through our solar system and galaxy, to
+the distant reaches of the universe. Each section covers different high-energy phenomena where
+Fermi has moved the needle of discovery. Scientists working with Fermi have developed new
+theories in physics, found more cosmic objects, and brought gamma-ray science to the forefront
+of astrophysics. Despite monumental progress, there is always more to learn about our universe
+— which is precisely the beauty of scientific exploration.
+Read on to go on a cosmic journey through Fermi’s majestic and mystifying gamma-ray universe.
+Science
+Credit: NASA/Sonoma State University, Aurore Simonnet
+Earth
+39 Our High-Energy Universe www.nasa.gov
+Terrestrial Gamma-ray Flashes
+Earth’s most powerful natural particle accelerators are actually daily events: thunderstorms.
+In a thunderstorm, rain, snow, and ice in Earth’s atmosphere collide and build up electrical
+charge. Generally, positively charged particles gather in the upper layers of a storm, while
+negatively charged particles gather in the lower layers. When these opposing electrical regions
+become strong enough to break down air’s insulating properties, they produce a powerful
+discharge of energy that we see as lightning. This sudden energy release accelerates electrons
+upward through the storm. When these speedy electrons pass close to the nuclei in atoms of air
+molecules, their paths deflect and they emit gamma rays. This phenomenon is called a terrestrial
+gamma-ray flash, or TGF.
+Scientists discovered the first TGFs in 1994 using Compton. Today, Fermi detects TGFs using its
+GBM, which can record TGFs within 500 miles of Fermi’s location. During Fermi’s first 10 years
+in operation, the telescope detected more than 4,000 TGFs, most of them seven to nine miles
+above Earth’s surface where the atmosphere is thinner. However, this number is likely a massive
+underestimate of how many actually occur; scientists predict that around 1,100 TGFs happen in
+Earth’s atmosphere each day. Many may occur closer to the planet’s surface, where Earth’s thick
+atmosphere obscures the gamma-ray signal. Some TGFs even occur in powerful volcanic eruptions.
+In general, TGFs are as short as one-thousandth of a second and release gamma rays with 100
+million electron volts of energy (for comparison, visible light is 2 to 3 electron volts). They can come
+from any thunderstorm, regardless of its strength.
+These images are based on a TGF simulation by Joseph Dwyer at the Florida Institute of Technology.
+Electric fields near the top of a storm create an upward-moving avalanche of electrons (yellow).
+When molecules in the air deflect their paths, the electrons emit gamma rays (pink).
+Credit: NASA’s Goddard Space Flight Center/J. Dwyer, Florida Inst. of Technology
+www.nasa.gov Our High-Energy Universe 40
+Earth is actually the brightest source of gamma rays that
+Fermi detects. This image shows a view of Earth and the
+galaxy from Fermi’s perspective. Since Earth is so bright in
+gamma rays, its limb floods the side of Fermi’s view with
+photons. In this image, low-intensity gamma rays are
+blueand high-intensity gamma rays are yellow.
+Credit: International Fermi LAT Collaboration, NASA, DOE
+Images of Earth taken from space often show a halo around our planet. This is our atmosphere,
+the edge of which is known as Earth’s limb. Earth’s atmosphere consists mostly of nitrogen and
+oxygen and stretches over 60 miles above the planet’s surface. The atmosphere can be thought
+of in layers, the uppermost of which are too thin for our eyes to distinguish them. This is because
+the pressure is very low, so the gas molecules are spread far apart. Images of Earth’s limb thus
+typically capture the edge of an atmospheric layer called the mesosphere, which begins about 30
+miles above Earth’s surface and is 22 miles thick. There, the pressure is far too low for any person
+to breathe. Due to the spread-out gas molecules, the average temperature at the top of this layer
+is around minus 90 degrees Fahrenheit!
+Images of the limb can be used to monitor changes in the ozone layer, which shields Earth from the
+Sun’s intense radiation. In the past, Fermi’s LAT has observed Earth’s limb to calibrate its instruments
+and test that the telescope was working, since Earth is a prominent source of gamma-ray emission
+from sources like lightning and radioactive decay. Earth’s limb also appears to emit gamma rays as
+energetic protons from cosmic rays hit Earth’s atmosphere and burst into many smaller particles.
+Generally, though, Fermi also relies on the limb specifically to help it avoid viewing Earth, because
+the limb is a bright source of background emission that can obscure Fermi’s observations. Since
+the LAT surveys the whole sky, scientists must optimize its field of view by pointing Fermi away from
+our planet. Historically, if Fermi observed a gamma-ray burst that dipped behind our planet, it
+would automatically execute a process known as “limb tracing,” whereby its instruments followed
+the outline of the limb until they could view the burst again. Since the solar panel freeze in 2018, this
+process no longer occurs.
+Fermi’s GBM, on the other hand, uses Earth’s limb as a tool. Since the GBM sees the whole sky, when a
+known bright source dips behind — or appears from behind — Earth, the GBM can detect its change
+in brightness. This helps scientists monitor sources that change over time, like the Crab.
+Earth’s Limb
+41 Our High-Energy Universe www.nasa.gov
+Local Electrons and Positrons
+An illustration of the invisible
+magnetic field lines generated by
+Earth. Fermi used Earth’s magnetic
+field to find high-energy positrons
+near Earth.
+Credit: Peter Reid, The University of
+Edinburgh
+Electrons, the tiny negatively charged particles in every atom, are one of the smallest known
+particles in the universe. Positrons are their antimatter counterpart: equally small but with a positive
+charge. When the nucleus of a cosmic ray interacts with low-density interstellar gas, it produces a
+slew of particles, including pairs of electrons and positrons. Antimatter does not exist long in space
+before getting annihilated by matter. Therefore, scientists know that any positrons we detect at
+high energies — meaning that they were created somewhat recently — must be created close to
+Earth. In 2008, a study reported an excess of nearby positrons compared to scientists’ expectations
+from theoretical models. This hints that there are high-energy phenomena happening close by.
+The Fermi mission wants to help figure out what they are.
+The first spacecraft to detect these excess positrons was the WiZard collaboration’s Payload for
+Antimatter Matter Exploration and Light-nuclei Astrophysics (PAMELA), a now-decommissioned
+but still-orbiting satellite designed to study cosmic rays. PAMELA had a central magnet that it
+used to measure the fraction of positrons and electrons in cosmic rays that hit its detector. While
+Fermi’s Anticoincidence Detector is an excellent particle detector, Fermi itself lacks the magnet
+crucial to PAMELA. Luckily, there was one close by that Fermi could borrow: Earth. Earth generates
+a strong magnetic field in its interior that extends outward into space. This magnetic field protects
+our atmosphere — and therefore life — from charged particles, radiation, and space weather. The
+Fermi team used a precise map of Earth’s magnetic field strength and direction to find areas where
+Earth blocked positrons but not electrons and vice versa. Using this technique, the LAT confirmed
+what PAMELA had found: an excess of high-energy positrons near Earth. One prominent theory for
+this exciting result is that nearby dark matter particles annihilate into matter-antimatter pairs in
+the form of electrons and positrons. While not proven, this theory is one of the puzzle pieces that
+could help scientists find dark matter.
+www.nasa.gov Our High-Energy Universe 42
+Solar System
+43 Our High-Energy Universe www.nasa.gov
+Credit: NASA/Sonoma State University, Aurore Simonnet
+Sun and Moon
+It’s not hard to tell if the Sun or Moon shines brighter in visible light. But if you thought the Sun was
+brighter in gamma rays, too, you’d be wrong! The Moon’s lack of a magnetic field allows electrically
+charged cosmic rays to reach its surface. When the cosmic rays interact with the powdery surface
+of the Moon, called regolith, they produce gamma rays, some of which escape and Fermi detects.
+Since the LAT’s spatial resolution is limited, Fermi’s view of the moon is relatively blurry. Additionally,
+since cosmic rays bounce off in all directions, they emit gamma rays in all directions. Without one
+single direction of illumination, like when the Sun’s light hits the Moon, the Moon appears to shine
+as one constant sphere — in other words, we can’t see its phases in gamma rays. Fermi’s view
+has steadily improved over the years, though. Astronomers found that the Moon’s gamma-ray
+brightness changes over time, largely due to the rate of cosmic-ray impacts. The rate changes
+due to variations in the Sun’s intense magnetic field, which affects how many cosmic rays reach
+the Moon.
+Normally, the Sun’s magnetic field deflects low-energy cosmic rays from reaching its own surface.
+However, high-energy cosmic rays on the order of 1 billion electron volts and higher do pass through
+the Sun’s magnetic field, making it shine brighter than the Moon at high energies.
+These images show the Fermi telescope’s improving view of the Moon’s gamma-ray glow over
+time. Brighter colors correspond to greater numbers of gamma rays above 31 million electron
+volts, tens of millions of times the energy of visible light. At these energies, the Moon is actually
+brighter than the Sun. The glow comes from cosmic rays, particles that constantly bombard
+the lunar surface. The Moon has no magnetic field, which would screen out lower-energy
+particles. So instead they strike and interact with the surface, which produces gamma rays.
+Credit: NASA/DOE/Fermi LAT Collaboration
+www.nasa.gov Our High-Energy Universe 44
+Fun Fact:
+Adding Artistry to Astronomy
+The Fermi team knows that science is meant to be shared. One creative way to carry out that
+conviction is through a partnership called AstroAnimation with the Maryland Institute College of Art
+(MICA) in Baltimore. Since 2013, Fermi scientists and MICA undergraduate students have partnered
+in an animation class to create projects that explain high-energy astrophysics in a visual way. The
+animations span a variety of styles and topics fit to the students preferences and interests. Some
+of the most memorable visualizations have focused on the Fermi bubbles, dark matter, and binary
+stars.
+During the yearly collaboration, MICA students work in small groups with scientist mentors who
+help answer questions about the chosen science topics. The students also get to tour NASA’s
+Goddard Space Flight Center, where they can see Fermi scientists in their usual jobs. At the end of
+the class, students present their work, which is often shown at museums, art and science festivals,
+and Goddard itself. The AstroAnimation partnership is an example of the increasingly popular
+concept of STEAM, which incorporates art into traditional STEM (Science, Technology, Engineering,
+and Math) disciplines like astrophysics. Studies conducted about this unique partnership report
+that the students feel positively about the science they learn, while the scientists enjoy seeing their
+work represented in engaging and public-friendly ways. Many students from the AstroAnimation
+course go on to intern at Goddard, where they create visualizations for different NASA missions.
+You can check out the animations and learn more about the collaboration here: https://www.
+astroanimation.org/ .
+Each year since 2013, MICA students have designed animations featuring Fermi and
+gamma-ray science. The students work with scientist mentors and even get to present
+their final animations at museums, art and science festivals, and NASA’s Goddard Space
+Flight Center.
+Credit: Charlie Cornwell
+45 Our High-Energy Universe www.nasa.gov
+Solar Flares
+Millions of miles away, our Sun sometimes releases enormous bursts of energy. These bursts are
+called solar flares, and they can last from minutes to hours. Solar flares occur on areas of the Sun
+with strong magnetic fields. Such areas are called sunspots because they appear darker on the Sun
+due to their relatively lower temperature — around 6,500 degrees Fahrenheit. When the magnetic
+fields near sunspots tangle, cross, and reorganize, they can become unstable and suddenly release
+electromagnetic radiation. Such a burst appears bright on the surface of the Sun in X-ray and
+ultraviolet radiation.
+The Sun’s energetic activity occurs on an 11-year cycle. When the number of sunspots peaks, this is
+called the solar maximum. The last solar maximum occurred in 2014, and we are approaching the
+next one, which is set to occur in 2025. The solar cycle has a small influence on Earth’s climate, so
+better understanding it can improve our knowledge of life on Earth. Interestingly, studies suggest
+that the Sun emits fewer gamma rays during its solar maxima and more during its solar minima.
+This may be because gamma rays come from cosmic rays — highly energetic charged particles
+— colliding with particles in the Sun’s atmosphere, and the Sun’s winds are ebbing during solar
+minima, allowing more cosmic rays to sneak by.
+Fermi detects solar flares from their gamma-ray emission. Within Fermi’s lifetime, its LAT has
+recorded more than 40 solar flares and its GBM has recorded almost 8,000. In 2012, Fermi’s LAT
+caught the highest-energy emission ever detected from the Sun, which lasted over 20 hours and
+temporarily made the Sun the brightest object in the gamma-ray sky. Fermi has even detected
+emissions from solar flares that were partially hidden behind the Sun, known as “behind-the-limb
+flares.” In theory, the Sun should block direct light from these flares. In order for the LAT to detect
+them, the charged particles released in the flare must travel around 300,000 miles within five
+minutes to strike the side of the Sun facing Earth and produce gamma rays there. Fermi’s detection
+of behind-the-limb light in 2013 and 2014 led scientists to explore how charged particles from solar
+flares can move around the Sun.
+In 2013 and 2014, when NASA’s STEREO satellites were
+located on the far side of the Sun from Earth, they
+imaged solar flares, seen above, in extreme ultraviolet
+light. From these events, Fermi detected high-energy
+gamma rays. Scientists believe the flares accelerated
+particles that rained onto the Earth-facing side of the
+Sun to produce the gamma rays.
+Credit: NASA/STEREO
+www.nasa.gov Our High-Energy Universe 46
+v
+This image from Fermi’s LAT shows how the entire sky looked on March 7, 2012, in gamma-ray light
+brighter than 100 megaelectron volts (MeV). On this day, the Sun was the brightest gamma-ray
+source, at over 1,000 times its normal brightness. Usually, the Vela pulsar is the brightest continuous
+gamma-ray source Fermi’s LAT sees.
+Credit: NASA/DOE/Fermi LAT Collaboration
+47 Our High-Energy Universe www.nasa.gov
+Credit: NASA/Sonoma State University, Aurore Simonnet
+The Galaxy
+www.nasa.gov Our High-Energy Universe 48
+v
+Galactic Diffuse Emission
+Sources all around the universe emit streaming gamma rays, sending the highest-energy form
+of light barreling toward Fermi. We can think of these sources kind of like a person shouting — we
+hear them loud and clear. Amid the streams, there is also underlying gamma-ray emission from
+our galaxy, whose signals create what is known as “galactic diffuse emission.” There is also an
+extragalactic component known as the “extragalactic gamma-ray background.” Both underlying
+emission sources are like groups of nearby people whom you hear chatting, but you cannot make
+out their words. More than half of all of the gamma rays the LAT sees come from such underlying
+sources, so modeling them is vital to determine when gamma-ray sources stand out. There are
+many potential sources for galactic diffuse emission, and astrophysicists have been studying them
+since Fermi began taking data.
+Scientists largely attribute the diffuse emission to a broad “halo” of cosmic rays in the Milky Way that
+is interacting with interstellar gas to produce gamma rays. The size of the halo may be bigger than
+we think, or we may not fully grasp the density of the interstellar gas, both of which would contribute
+to more gamma rays than scientists’ models show. The Fermi Bubbles may also contribute gamma
+rays to the diffuse emission. Another exciting theory is that the higher-energy diffuse emission may
+signal the presence of decaying dark matter particles. Such a finding would give scientists a clearer
+idea of where dark matter exists, and what its properties are. Despite all of the potential sources of
+galactic diffuse emission, models still have yet to be consistent with the actual amount of gamma
+rays that the LAT observes. Galactic diffuse emission tells us that the galaxy is far more energetic
+than we previously believed, and determining the inner workings of the high-energy physics taking
+place all around us is one of Fermi’s most important research projects.
+This model shows the galactic plane as
+a sharp blue line and its galactic diffuse
+emission as wispy, darker blue tendrils. The
+galaxy glows brightly in diffuse gamma
+rays emitted when high-energy particles
+interact with gas and starlight. The Fermi
+Bubbles (magenta) are also featured
+prominently.
+Credit: NASA/DOE/Fermi LAT Collaboration
+49 Our High-Energy Universe www.nasa.gov
+Gamma-ray Pulsars
+When massive stars explode, the crushed cores they leave behind can become rotating stars called
+pulsars. These small but incredibly dense stars are a type of neutron star, which squeeze more
+mass than the Sun into a ball the size of a city. One reason pulsars spin rapidly is the same reason
+a figure skater does when they pull in their arms — shrinking in size while maintaining the same
+mass causes an object to spin faster in order to conserve a property called angular momentum.
+Pulsars emit light across the electromagnetic spectrum, though their emissions are concentrated
+in the gamma-ray and radio bands. As the star rotates, a lighthouse-like beam swings around the
+sky, periodically sweeping past Earth and producing the pulses of radiation that give these objects
+their name.
+There are about 3,400 known pulsars, and Fermi has detected gamma rays from more than
+300 of them. In 2008, Fermi’s LAT became the first instrument to discover pulsars solely through
+their gamma-ray emission; previously, scientists relied on X-ray or radio emission to confirm a
+pulsar discovery. In fact, Fermi revealed that many pulsars do not even emit observable radio
+waves, enabling the detection of previously hidden pulsar populations. The LAT team combines its
+observations with those of collaborations of radio telescopes to keep discovering pulsars at record
+rates. Fermi has also detected a type of pulsar called millisecond pulsars, which are pulsars that
+begin to spin faster when “recycled,” or spun up by gaining matter from a companion star. Fermi’s
+GBM can actually track some pulsars as they change speed. Knowing the type of radiation a pulsar
+emits and the period of its pulses helps to determine its characteristics, like age and rate of energy
+loss. For example, while some gamma-ray pulsars are only thousands of years old, the recycled
+ones can have ages greater than a billion years.
+In this illustration, a pulsar spinning hundreds of times per second periodically swings its radio
+(green) and gamma-ray (magenta) beams past Earth. Fermi has detected over 300 pulsars in
+gamma rays.
+Credit: NASA’s Goddard Space Flight Center
+www.nasa.gov Our High-Energy Universe 50
+Spider Binaries
+Two types of two-star systems, called binaries, have deadly namesakes: black widow and redback
+spiders. These cosmic killers contain a low-mass star next to a millisecond pulsar, a faster class
+of pulsars that spin at up to 60,000 revolutions per minute. Much like the spiders, the millisecond
+pulsars in black widow and redback binaries are devouring their partners! They do so by siphoning
+away a stream of gas from the lower-mass star, which energizes the pulsar and speeds it up. This
+occurs as the millisecond pulsar spins: its high-energy emission and wind superheat and blow
+away the lower-mass star’s material until, after millions or billions of years, the wind has eaten
+away the entire star. Black widow systems host companion stars less than 5% of the Sun’s mass,
+whereas redback systems have companions between 10-50% of the Sun’s mass. Interestingly, while
+pulsars usually appear alone, more than half of all discovered millisecond pulsars have a stellar
+partner. This suggests that interactions between a pulsar and a low-mass star can give new life to
+the pulsar, causing it to spin even faster than before. With Fermi’s help, astronomers have found at
+least 18 black widow and nine redback systems within the Milky Way.
+Since pulsars are a strong source of gamma rays, Fermi is excellent at detecting them. When a
+millisecond pulsar blows away the material of the companion star, ionized gas fills the system,
+through which only high-energy emissions easily pass — perfect for Fermi’s LAT. Using Fermi,
+scientists have discovered more than 144 gamma-ray millisecond pulsars. A prominent strategy
+for detecting these pulsars is to target Fermi gamma-ray sources with radio telescopes, which can
+help tease out the timing and speed of the pulsing signal. Using black widow and redback binaries,
+scientists aim to observe how a low-mass star intercepts energy from a millisecond pulsar, and
+thus glean more details about pulsar emission.
+51 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 52
+This artist’s rendering shows a pulsar (top left) blowing away material from a lower-mass star
+(bottom). This system is called a spider binary.
+Credit: NASA/Sonoma State University, Aurore Simonnet
+Transitional Pulsars
+Scientists have long known that pulsars, the crushed cores of massive stars, emit radiation across
+the electromagnetic spectrum. More recently, they discovered that some of them do so in a unique
+way: by switching rapidly between types of emission. Called transitional pulsars, they will emit one
+type of radiation — radio, for example — and then switch over a few days or weeks to emitting a
+different kind, like X-rays. Transitional pulsars are part of a binary system, where two stars — one
+of them a millisecond pulsar — orbit each other. Scientists believe that the transition occurs as the
+millisecond pulsar strips matter off of its companion star, subsequently changing the nature of its
+powerful “wind” of high-energy particles. As the wind changes, so does the emission that escapes
+the system and travels across the universe to Fermi and other telescopes.
+Fermi can find transitional pulsars because the pulsar already emits a gamma-ray signal, which
+brightens at the same time as the radio-to-X-ray transition. In 2013, a binary system called
+AY Sextantis showed this exact phenomenon — one of the first of its kind to flip from radio to
+gamma-ray emission. Another binary system, IGR J18245-2452, also discovered in 2013, flipped
+between radio and X-ray emission. Fermi observed AY Sextantis, helping scientists to hypothesize
+that they were viewing the last stages of the millisecond pulsar stripping matter from its
+companion. The discovery of transitional pulsars helped further astrophysicists’ understanding
+of how millisecond pulsars form.
+One model of the AY Sextantis
+system before (top) and after
+(bottom) its radio beacon
+(green) vanished. When
+the millisecond pulsar’s
+high-energy wind changed,
+gamma-ray particle jets
+(magenta) obscured the radio
+beam.
+Credit: NASA’s Goddard Space
+Flight Center
+53 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 54
+Fun Fact:
+A Gamma-Ray Self-Portrait
+When Fermi began surveying the sky in 2008, scientists were excited to see what it would discover
+first. From faraway gamma-ray bursts to energetic blazars, the options seemed plentiful. However,
+when they sat down to analyze Fermi’s science data, the first gamma-ray source Fermi had seen
+was our own galaxy.
+The result was not surprising. The Milky Way is exceptionally bright in gamma rays, and happened
+to be the first source scientists saw with Compton and previous gamma-ray satellites. In fact, back
+in the 1950s, the first cosmic gamma rays scientists predicted they could find were those from our
+galaxy. Much of this light is actually a diffuse gamma-ray glow rather than specific gamma-ray
+sources. As cosmic rays from supernovae hit interstellar gas and light, they accelerate particles
+to produce gamma rays. Since its first gamma-ray observations, Fermi’s picture of the Milky Way
+has gotten tremendously clearer. Fermi’s first observation was a good reminder that while Fermi
+and other NASA observatories are designed to tell us more about our expansive universe, they are
+simultaneously helping us learn more about the place we call home within it.
+The Fermi all-sky map after one week of observations.
+Credit: NASA/DOE/Fermi LAT Collaboration
+Einstein@Home
+Did you know your computer can do astrophysics when you’re not looking? A citizen science project
+called Einstein@Home enables volunteers to download software to search for weak astrophysical
+signals in their computer’s idle time. These signals are hidden in massive amounts of raw data that
+telescopes like Fermi collect while observing the universe. Sifting through all of these data to find
+patterns and signals takes enormous amounts of time, so scientists developed Einstein@Home to
+speed up the process. The program allows your computer to comb through astronomical data,
+specifically looking for signals from spinning neutron stars known as pulsars. Searching for signals
+without knowing specific information about the pulsars beforehand is called blind searching. The
+public’s computers have discovered about 50 new neutron stars since Einstein@Home’s launch in
+February 2005.
+Fermi’s LAT Source Catalog contains more than 2,000 unidentified gamma-ray sources, but
+Einstein@Home sifts through just 118. These objects, whose emissions resemble pulsars, make up
+the Fermi Gamma-ray Pulsar Search. Another hunt, called the Fermi Gamma-ray Pulsars in Binaries
+Search, focuses on pulsar-like sources which seem to occur in binary star systems. On average,
+Fermi’s LAT detects 10 photons per day from a pulsar. This means that detecting patterns with fine
+resolution requires years of data and enormous computing power. Einstein@Home accelerates
+the search dramatically by putting citizens’ computers on the trail. The project eventually aims to
+detect gravitational waves from pulsars, a feat that had never been done prior to groundbreaking
+results from the North American Nanohertz Observatory for Gravitational Waves Physics Frontiers
+Center in June 2023.
+The entire sky as seen by Fermi and the 13 pulsars discovered by Einstein@Home that were
+published in January 2017. The field below each inset shows the pulsar’s name and rotation
+frequency. The flags in the insets show the nationalities of the volunteers whose computers
+found the pulsars.
+Credit: Knispel/Clark/Max Planck Institute for Gravitational Physics/NASA/DOE/Fermi LAT Collaboration
+55 Our High-Energy Universe www.nasa.gov
+Pulsar Timing Array
+Since Fermi’s launch, the number of discovered gamma-ray pulsars has multiplied dramatically.
+Today, scientists know of more than 300 gamma-ray pulsars, enabling them to better study their
+properties and oddities. One of the most interesting uses for pulsars is as a pulsar timing array:
+a set of pulsars whose steady pulse intervals tell us about the space between us and them. Each
+time the pulsar’s lighthouse-like beam swings by Earth, Fermi and other telescopes detect a pulse,
+building up a record of the pattern. Sometimes, the pulsar beam swings by earlier or later than
+expected from the pattern, which signals to scientists that something has perturbed the spacetime between us and it. This is a technique used primarily to search for gravitational waves, ripples
+in space-time that travel at the speed of light. Since gravitational waves squeeze and stretch
+everything in their path, they cause the pulsar’s beam of radiation to arrive at Fermi at a different
+time than expected if no gravitational waves were present. Scientists typically choose millisecond
+pulsars for pulsar timing arrays because of their clockwork-like consistency. The disruption from
+gravitational waves is as short as billionths of a second!
+A 2022 study used 12.5 years of LAT data from 35 of the most stable millisecond pulsars known
+to search for the gravitational wave background (GWB). The GWB is a “background hum” of
+gravitational waves pervading the universe from many different unidentified sources, akin to the
+murmur of indistinct voices in a crowd. Astrophysicists believe the GWB comes from supermassive
+black holes that are drawing closer together at the centers of merging galaxies. Though they had
+been theorized about more than 100 years ago, the first gravitational waves weren’t detected
+until 2015, when the National Science Foundation’s LIGO (Laser Interferometer Gravitational-Wave
+Observatory) detected merging black holes around the size of our Sun. Prior to Fermi, scientists
+relied primarily on radio telescopes to hunt for the GWB. Fermi provides a complementary way to
+search for the GWB because gamma rays are not affected by the interstellar medium, which can
+obscure signals to a radio telescope. The study found that while Fermi’s pulsar timing array is not
+yet sensitive enough to detect the GWB signals seen by radio telescopes, it will continue to improve
+over time with more pulsar detections and more years of data. The LAT team is hoping to detect
+the GWB within the next five years.
+v
+www.nasa.gov Our High-Energy Universe 56
+Fermi, illustrated here, collects gamma rays
+from rapidly rotating stellar remnants called
+pulsars. As the high-energy light travels
+across the Milky Way, it encounters a sea
+of gravitational waves which slightly affect
+the arrival time of gamma rays, something
+Fermi should be able to detect.
+Credit: Daniëlle Futselaar/MPlfR
+57 Our High-Energy Universe www.nasa.gov
+Supernova Remnants
+Some of the fastest-moving matter in the universe comes from some of its largest explosions:
+supernovae. When a star explodes, it transforms over thousands of years into a supernova remnant,
+a rapidly expanding cloud of gas contained by a shock wave with a strong magnetic field. Charged
+particles trapped within the magnetic field repeatedly cross the shock wave, a process called
+Fermi acceleration after its discoverer, Enrico Fermi. Crossing the shock wave boosts the speed of
+the particles, and after many passes, they gain enough speed to break free from the magnetic
+field and escape into the galaxy as a cosmic ray. Cosmic rays are electrically charged subatomic
+particles that travel near the speed of light. Ninety percent of cosmic rays are made of particles
+called protons, but they can also include electrons or atomic nuclei. As these accelerated particles
+travel, other magnetic fields deflect them, which makes it impossible for scientists to trace their
+origins directly. Cosmic rays constantly bombard Earth, producing a shower of even smaller particles
+upon impact with our atmosphere.
+Fermi’s LAT tracks cosmic rays using the gamma rays emitted from their interactions with nearby
+matter. Sourcing these gamma rays therefore serves as a proxy for tracking the origins of cosmic
+rays. Supernova remnants had long been candidates for the origin of cosmic rays because they emit
+gamma rays with energies of more than a billion electron volts (for comparison, visible light’s energy
+range is 2-3 electron volts). In 2013, Fermi confirmed this theory using two particular supernova
+remnants: IC 443 and W44. These remnants are expanding into cold, dense clouds of interstellar gas,
+causing the clouds to emit gamma rays when high-speed particles escaping the remnants strike
+them. Analyzing years of data enabled Fermi scientists to determine that the escaping particles
+are accelerated protons. Confirming that cosmic rays come from supernova remnants was an
+important step forward in understanding these speedy and energetic particles.
+v The caption should now say IC 443 (above) and W44 (left).
+www.nasa.gov Our High-Energy Universe 58
+These composite images show supernova remnants IC 443 (left) and W44 (above). The remnants
+are expanding into cold, dense clouds of interstellar gas, where protons accelerated in the
+remnants emit gamma rays. In the left image, Fermi gigaelectron volt (GeV) gamma-ray emission
+is magenta, optical wavelengths are yellow, and infrared wavelengths are blue, cyan, green, and
+red. In the above image, Fermi GeV gamma-ray emission is magenta, X-rays are blue, infrared
+light is red, and radio waves are yellow.
+Credits: Left, NASA/DOE/Fermi LAT Collaboration, Tom Bash and John Fox/Adam Block/NOAO/
+AURA/NSF/JPL-Caltech/UCLA; Right, NASA/DOE/Fermi LAT Collaboration, CXC/SAO/JPL-Caltech/
+Steward/O. Krause et al., and NRAO/AUI
+59 Our High-Energy Universe www.nasa.gov
+This is an artist’s rendering of the
+white dwarf star in V407 Cygni that
+went nova in 2010. Scientists think
+the outburst primarily emitted
+gamma rays (magenta) as the
+blast wave plowed through the
+gas-rich environment near the
+system’s red giant star.
+Credit: NASA’s Goddard Space
+Flight Center/S. Wiessinger
+Explosions in space are unlike anything seen on Earth. A classical nova releases as much energy
+as two trillion trillion tons of TNT. (That’s a two followed by 24 zeros.) This is between 10,000 and
+100,000 times more energy than our Sun produces in a whole year. Classical novae result from
+thermonuclear explosions on the surfaces of white dwarfs, the dense, hot cores of Sun-like stars that
+have exhausted their nuclear fuel. Novae happen when a white dwarf that is part of a binary star
+system slowly accretes matter from a companion star. When enough hydrogen builds up on the
+surface, an explosion occurs that ejects the accreted gas. The white dwarf brightens dramatically
+but remains intact. The ejected material expands into space, creating shock waves that accelerate
+particles to near the speed of light, causing them to emit gamma rays.
+Fermi’s LAT discovered that classical novae almost always produce gamma rays, a finding that was
+wholly unexpected. Fermi’s first gamma-ray detection from a nova occurred in 2010. The source,
+named V407 Cygni, is a rare star system where the white dwarf’s companion was a red giant, a type
+of star more than 100 times the size of our Sun. The rarity of the star system initially led scientists
+to think the gamma-ray detection was a fluke, or at least limited to these types of star systems.
+Then, in 2012 and 2013, Fermi’s LAT detected three classical novae, leading scientists to hypothesize
+the gamma-ray detections were a pattern rather than a coincidence. Since its launch, Fermi has
+detected about 20 novae in gamma rays, but scientists hypothesize that most novae go undetected
+due to interstellar dust obscuring their lower-energy light. Studying novae in high-energy light may
+help scientists to discover ever increasing numbers of these stellar explosions.
+Novae
+If you’ve ever seen a crab scuttling along at the beach, you’ll remember its curved legs and
+sharp pincers. An Irish astronomer saw a crab’s likeness in the sky in 1844. Now the Crab Nebula
+is known as one of our galaxy’s most energetic objects. It is the wreckage of an exploded star
+that people on Earth observed as a supernova in 1054. Located 6,500 light-years away, its
+tentacle-like structure is made of expanding gas, and at its center lies a pulsar, the leftover
+core from the original star, that spins over 30 times per second. Fermi’s LAT records consistent
+gamma-ray pulses from the pulsar’s lighthouse-like beam of radiation, but it also picks up
+a background signal of high-energy radiation from the Crab. Scientists believe that as the
+magnetic field around the Crab’s pulsar changes, it accelerates particles like electrons to
+velocities near the speed of light. When the accelerated particles interact with the magnetic field,
+they emit gamma rays.
+Sometimes, the Crab Nebula flares up. In 2011, scientists detected an outburst five times more
+powerful than any previous flare and 30 times more powerful than the normal background with
+Fermi’s LAT. The flare lasted six days and produced gamma rays with energies over 100 million
+electron volts (visible light is between 2 and 3 electron volts). Given the flare’s strength, scientists
+think that the gamma rays came from a region comparable in size to our solar system and about
+one-third of a light-year from the central pulsar.
+Fermi isn’t the only telescope interested in the Crab; NASA’s Chandra X-ray Observatory also
+routinely monitors the supernova remnant. When the LAT observed the 2011 flare, the Fermi team
+alerted the Chandra team. Interestingly, though Chandra caught lots of activity, the team saw
+no brightness in X-rays associated with the giant flare. In the years since, Fermi has detected
+numerous lower-intensity flares, too.
+Over time, the Crab’s brightness has been thought to be extremely steady, allowing scientists to
+use it to calibrate instruments and define the brightness of other gamma-ray sources. There is
+even a unit of measurement called the millicrab: something that is 1 millicrab in brightness is
+1/1000th as bright as the Crab. However, two years of data from Fermi’s GBM revealed in 2010 that
+the Crab had gotten fainter by 7% since Fermi launched in 2008. This discovery shocked the
+astronomy community and caused people to rethink the way they rely on the Crab. In the years
+since, Fermi’s GBM has shown that the Crab’s brightness has continued to vary, brightening
+and dimming over time.
+Crab Nebula
+Fermi’s LAT discovered a gamma-ray “superflare” from the
+Crab Nebula on April 12, 2011. These images show the number
+of gamma rays with energies greater than 100 million electron
+volts from a region of the sky centered on the Crab Nebula. At
+left is the area 20 days before the flare; at right is April 14.
+Credit: NASA/DOE/Fermi LAT/R. Buehler
+www.nasa.gov Our High-Energy Universe 60
+61 Our High-Energy Universe www.nasa.gov
+In this illustration, the Fermi
+bubbles are shown extending
+50,000 light-years end to end —
+roughly half of the Milky Way’s
+diameter. If the structure were
+rotated into our galaxy’s plane,
+it would extend beyond our solar
+system. In this image, gamma rays
+are magenta and X-rays are blue.
+Credit: NASA’s Goddard Space
+Flight Center
+One of the most exciting parts of science is finding things you never knew to look for. The Fermi
+Bubbles, discovered by a team of scientists at the Center for Astrophysics | Harvard & Smithsonian
+(CFA) in 2010, are exactly that type of finding. The Fermi Bubbles are two lobe-shaped structures
+above and below the center of our galaxy that emit higher-energy gamma rays than the rest of the
+galaxy. The lobes are each about 25,000 light-years tall. Within them, extremely energetic electrons
+interact with ultraviolet or lower-energy light and interstellar gas to produce gamma rays. Scientists
+believe the bubbles may be related to the vast amounts of energy that the supermassive black hole
+in the center of our Milky Way emits. In the past, the black hole may have produced high-energy jets
+— a phenomenon seen in other galaxies — that left behind the lobes. The bubbles could also have
+formed thanks to a massive burst of star formation. Other telescopes have found similar structures
+in different wavelengths of light; the German-Russian eRosita (extended ROentgen Survey with
+an Imaging Telescope Array) instrument found even larger bubbles in X-rays, and NASA’s WMAP
+(Wilkinson Microwave Anisotropy Probe) found a microwave haze above and below the galactic
+plane.
+The Fermi Bubbles are a discovery made possible only by Fermi’s extensive data archive. Since
+Fermi’s data is open and available to the public immediately upon processing, scientists around
+the world are able to download it and conduct science. The CFA team, which expanded on previous
+work by other scientists, was actually searching for dark matter when they discovered the Fermi
+Bubbles. Previous astronomers never found them due to diffuse gamma-ray emission, a sort of fog
+of gamma rays across the sky that had obscured the bubbles. Diffuse gamma rays occur when
+superfast particles interact with light and interstellar gas in the Milky Way. When the CFA team
+subtracted the gamma-ray fog from the Fermi all-sky data, the bubbles suddenly emerged. Since
+the discovery of the Fermi Bubbles, scientists have been hard at work researching their true origins.
+In recent years, scientists using the National Science Foundation’s IceCube Neutrino Observatory
+in Antarctica discovered 10 neutrinos — highly energetic particles from the interaction of cosmic
+rays — that may have been sourced from the bubbles.
+Fermi Bubbles
+www.nasa.gov Our High-Energy Universe 62
+Fun Fact:
+Fermi in the Kitchen
+Doing science with Fermi can really work up an appetite! The Fermi team loves to get creative in
+the kitchen by baking and sharing treats inspired by the observatory. From focaccia featuring the
+telescope to tiered cakes depicting the stages of binary neutron star mergers, Fermi team members
+frequently look to the cosmos for culinary inspiration.
+How to bake a Fermi sugar cookie:
+Batter Ingredients
+1 cup (226 g) unsalted butter (room temperature)
+1 cup (200 g) granulated sugar
+1 teaspoon vanilla extract
+1 large egg
+2 ¾ cup (345 g) all-purpose flour
+2 tablespoons cornstarch
+¼ teaspoon baking powder
+½ teaspoon salt
+Icing Ingredients:
+3 tablespoons (30 g) meringue powder
+3 cups (339 g) powdered sugar
+6 tablespoons water (90 g)
+Gel food coloring (black, blue, red, yellow)
+Preheat the oven to 350ºF (175ºC) and line two cookie sheets with parchment paper.
+Beat the butter and sugar in a stand mixer with a paddle attachment or a hand mixer until
+lighter in color and fluffy. This may take several minutes.
+Add the egg and vanilla, and continue to mix until combined, scraping the sides of the bowl
+as needed.
+In a separate bowl, combine flour, cornstarch, baking powder, and salt. Whisk to thoroughly
+combine.
+With the mixer on low speed, slowly add the dry ingredients to the butter mixture, and mix just
+until the dry mixture is incorporated.
+Form the dough into a disk, cut it in half, and place one half on a fresh piece of parchment
+paper. Place another piece of parchment paper on top. If the dough is really sticky, add a little
+bit of flour between the dough and the parchment paper.
+Use a rolling pin to roll out the dough between the two pieces of parchment paper to ¼” (6.5
+mm) thickness.
+Remove the top sheet of parchment paper and use an oval cookie cutter to cut out sky map
+all-sky projection shapes. If needed, dip the cookie cutter in flour.
+1-
+2-
+3-
+4-
+5-
+6-
+7-
+8-
+Baking Instructions:
+63 www.nasa.gov
+Decorating Instructions:
+Remove the excess dough and peel the cookies off the parchment paper. Repeat with the
+second half of the dough.
+Place the cookies on the prepared pans, and reroll and cut the excess dough until it is used
+up.
+(Optional) Chill the unbaked cookies on trays in the refrigerator until your oven is preheated
+to reduce spread while baking.
+Bake the cookies for 10 minutes until set and very lightly golden.
+Let the cookies cool completely on trays before decorating.
+9-
+10-
+11-
+12-
+13-
+Combine the powdered sugar, meringue powder, and water in a mixing bowl.
+Beat on medium speed with a stand mixer or hand mixer until the royal icing is slightly fluffy,
+scraping the bowl as necessary. The icing should be a thick flood consistency.
+Split the royal icing into four small bowls with 75% split between two bowls, and the remaining
+25% split between two bowls. Add a few drops of food coloring to color the larger bowls black
+and blue and the smaller bowls red and yellow. Keep adding color until they are vibrant, but
+note that icing will continue to darken as it absorbs color.
+Scrape each bowl of royal icing into separate piping bags or sandwich bags, fitting them with
+small round piping tips or cutting tiny holes in the corners.
+Working on one or two cookies at a time, pipe an oval outline in black icing (the universe).
+Pipe a horizontal yellow line for the galactic plane that gets thicker toward the middle of the
+cookie (the galactic center).
+Outline the yellow line with red icing for the galactic disk. Pipe lobes above and below the
+galactic center for the Fermi Bubbles.
+Outline the red icing with blue icing and fill in remaining outer gaps with black icing.
+Use a toothpick or cookie scribe tool to swirl the yellow and red icings, filling in any holes. Swirl
+the blue and black icings until icing has filled all of the gaps.
+Carefully add tiny dots of red above and below the galactic plane to represent extragalactic
+blazars.
+Wipe off the toothpick or scribe tool between cookies, and continue to decorate until you have
+Fermi gamma-ray sky maps on all of your cookies.
+Let the cookies dry at room temperature until the icing has hardened, which could take 6-8
+hours depending on the humidity. Do not cover the cookies until they are fully dry.
+Once dry, store the cookies in an airtight container at room temperature and enjoy.
+1-
+2-
+3-
+4-
+5-
+6-
+7-
+8-
+9-
+10-
+11-
+12-
+13-
+Our High-Energy Universe
+www.nasa.gov Our High-Energy Universe 64
+We’d love to see your finished Fermi cookies! Tag @NASAUniverse on social media or share your
+photos in the comments on Fermi’s posts.
+Fermi sugar cookies depicting the gamma-ray all-sky map.
+Credit: Photo courtesy of Jeanette Kazmierczak, recipe courtesy of Judy Racusin
+65 Our High-Energy Universe www.nasa.gov
+This artist’s rendering shows a rupture in the
+crust of a highly magnetized neutron star
+that can trigger high-energy eruptions. Fermi
+observations of these blasts include information
+on how the star’s surface twists and vibrates,
+providing new insights into what lies beneath.
+Credit: NASA’s Goddard Space Flight Center/S.
+Wiessinger
+Ever wonder what the most powerful magnet in the universe is? It’s actually a type of neutron star
+called a magnetar. These stars are characterized by their extremely powerful magnetic fields, which
+are about 10 trillion times stronger than an average commercial magnet and a trillion times stronger
+than our Sun. Such an intense magnetic field heats the star’s surface to around 18 million degrees
+Fahrenheit. Magnetars release huge amounts of electromagnetic radiation, including gamma rays.
+They are known to have bursts of radiation without warning, followed by a quiet period which makes
+them exceedingly hard to track down. Some magnetars are also pulsars, the crushed cores of
+massive stars that emit radiation which sweeps around the sky like lighthouse beams. Magnetars
+weren’t understood to be a separate class of neutron star until recently, but scientists have since
+detected 31 out of thousands of known neutron stars in our galaxy. The reason behind magnetars’
+intense magnetic fields — and why these stars only have strong magnetic fields for about 10,000
+years — is yet to be discovered.
+In April 2020, Fermi and other observatories detected a flash of gamma rays from a magnetar
+in the Sculptor galaxy, over 11 million light-years from Earth. Classified as a rare giant magnetar
+flare, the burst released as much energy in 140 milliseconds — just the blink of an eye — as our Sun
+does in 100,000 years. Scientists suspect the cause was a starquake, where the magnetar’s crust
+fractured. This quake, which was 1,000 trillion trillion times more powerful than the largest known
+terrestrial earthquake, released an intense barrage of gamma rays. Soon after, matter ejected by
+the starquake interacted with piled-up gas and produced shock waves that accelerated electrons,
+producing higher-energy gamma-ray emission. Scientists using Fermi’s GBM have shown that a
+tiny fraction of events previously thought to be short gamma-ray bursts in the distant universe are
+in fact giant magnetar flares from nearby galaxies.
+In addition to giant magnetar flares, there are also storms of hundreds of smaller magnetar flares.
+One such storm occurred in our galaxy from October 2008 to April 2009, when a single magnetar
+produced hundreds of bursts, each lasting as little as 20 minutes. The most intense explosions
+emitted more total energy than the Sun does in 20 years. Fermi’s GBM is particularly well-suited to
+catch these rapid bursts. These starquakes give us new insight into the structure of neutron stars
+more generally.
+Magnetars
+Though mysteries abound throughout the cosmos, some of the biggest puzzles are right in our
+backyard. One of the most baffling is called the galactic center excess. Conventional models of
+our Milky Way galaxy combine known gamma-ray sources like pulsars with diffuse gamma-ray
+emission, the gamma rays produced when high-energy cosmic rays interact with interstellar
+matter and low-energy light. However, when Fermi’s LAT observed the center of our galaxy, it
+discovered far more gamma rays at high energies than expected from models.
+Scientists still don’t fully understand why the galactic center is so bright in gamma rays.
+Models may be underestimating the amount of cosmic rays or interstellar gas, two ingredients
+in producing diffuse gamma rays, or may be missing gamma-ray contributions from the
+Fermi Bubbles. Or, as some astrophysicists theorize, the galactic center excess may indicate
+the presence of dark matter. Scientists believe that the center of our galaxy hosts a high
+concentration of dark matter due to the strength of the gravitational attraction that holds
+together the Milky Way’s stars and gas. Since scientists reason that dark matter particles
+annihilate each other to produce gamma rays, observing high quantities of gamma rays from
+the galactic center would be potential evidence for dark matter. Interestingly, though, other
+regions of the galactic plane show similar excess amounts of gamma rays, even though dark
+matter is not expected to exist there. To further study the presence of dark matter, scientists
+working with the Event Horizon Telescope, a global network of synchronized radio observatories,
+are studying images of the shadow of the black hole at the galactic center. Properties of the black
+hole’s shadow should in turn reveal information about the dark matter present around it.
+A significant counter-hypothesis is that instead of — or in addition to — dark matter, there is an
+undiscovered population of gamma-ray-emitting objects near the galactic center. The most
+likely candidates are millisecond pulsars, which spin even faster than regular pulsars and emit
+pulses of gamma rays at extremely regular intervals. Deciphering the galactic center excess is
+one of Fermi’s most significant research projects and will continue to be a source of debate and
+discovery in the telescope’s coming years.
+Galactic Center
+A view of the entire gamma-ray sky from
+Fermi’s LAT, shaded to emphasize the
+central galaxy. The inset to the right is a
+map of the galactic center with known
+gamma-ray sources removed, which
+reveals the gamma-ray excess found there
+(in red, green, and blue, where red indicates
+the greatest number of gamma rays).
+Credit: NASA/DOE/Fermi LAT Collaboration
+and T. Linden (Univ. of Chicago)
+www.nasa.gov Our High-Energy Universe 66
+Credit: NASA/Sonoma State University, Aurore Simonnet
+67 Our High-Energy Universe www.nasa.gov
+Nearby Galaxies
+Radio Galaxies
+The giant elliptical galaxy NGC 5128 hosts the radio and gamma-ray source known as
+Centaurus A. In the left image, the galaxy is shown in only optical light. In the middle image, the
+galaxy is shown with its gamma-ray output in magenta. In the right image, the galaxy is shown
+in radio (orange), optical, and gamma-ray (magenta) light to illustrate the full extent of Cen A’s
+vast emitting lobes. Radio data reveals that the structures span more than 1.4 million light-years,
+and Fermi’s LAT data show that the gamma-ray output of the lobes exceeds the radio output by
+more than 10 times.
+Credits: Left, Capella Observatory; middle, NASA/DOE/Fermi LAT Collaboration, Capella
+Observatory; right, NASA/DOE/Fermi LAT Collaboration, Capella Observatory, and Ilana Feain,
+Tim Cornwell, and Ron Ekers (CSIRO/ATNF), R. Morganti (ASTRON), and N. Junkes (MPlfR)
+www.nasa.gov Our High-Energy Universe 68
+Active galaxies — those that have a small core of emission in their centers from matter falling
+toward a supermassive black hole — come in many forms. One form, first discovered in the 1950s,
+is called a radio galaxy: a type with strong jets of radiation that travel far into space. As expected
+from its name, a radio galaxy emits most of its light in the radio part of the electromagnetic
+spectrum. Some of this radio emission can extend millions of light-years away from the center of
+the galaxy, making radio galaxies an important target for observatories.
+One of the most famous radio galaxies is Centaurus A. Nicknamed Cen A and officially cataloged
+as NGC 5128, this galaxy is about 12 million light-years away and has two jets of gas, each nearly
+1 million light-years long. Over millions of years, these jets caused two giant radio lobes filled
+with energetic particles and magnetic fields to form around the galaxy. In 2010, Fermi’s LAT
+detected gamma-ray emission from Cen A’s lobes nearly 10 times greater than their radio
+emission. Scientists reason that as a photon collides with a superfast particle in the radio lobes,
+the photon receives a boost of energy that turns it into a gamma ray — a process called inverse
+Compton scattering. We are able to see this region in such spectacular resolution because Cen
+A is relatively close to Earth, in cosmic terms. This means it stretches across a huge area of the
+sky. Scientists are still investigating how much radio galaxies contribute to diffuse background
+gamma radiation, which are the gamma rays from unidentified sources seen all across our
+universe.
+69 Our High-Energy Universe www.nasa.gov
+This dwarf spheroidal galaxy in the
+constellation Fornax is a satellite of our Milky
+Way and is used in Fermi’s dark matter
+search. The motions of the galaxy’s stars
+indicate that it is embedded in a massive
+halo of matter that cannot be seen.
+Credit: ESO/Digital Sky Survey 2
+Among all the cosmic mysteries that Fermi studies, dark matter is the most puzzling. It comprises
+around 85% of the universe’s matter but has yet to be observed directly. Astronomers are
+constantly searching for areas where they might find dark matter and have found many promising
+candidates. One such candidate is a type of galaxy known as a dwarf spheroidal. These galaxies
+are small, roughly spherical, low-luminosity objects that contain old stars and little interstellar gas
+and dust. Their faintness shows they contain few light-emitting objects, like stars. The motions of
+the stars within these galaxies, however, indicate that they have much greater masses than can
+be accounted for by the material astronomers can see with optical and infrared measurements.
+This suggests dwarf spheroidals contain significant amounts of non-visible matter, which could be
+dark matter.
+Fermi’s LAT has been an important instrument for studying dwarf spheroidal galaxies. At least six
+of these galaxies are closer than 330,000 light-years — veritable galactic neighbors at cosmic
+scales — to the Milky Way’s center, which makes them excellent candidates for observation. While
+dark matter itself does not emit gamma rays or any other form of electromagnetic radiation,
+some proposed models suggest that as its particles collide, they annihilate and produce gamma
+rays. Gamma rays can therefore serve as a proxy for locating dark matter sources. Importantly,
+the closeby dwarf spheroidal galaxies are expected to be mostly free from other bright sources of
+gamma rays, such as pulsars, that might confuse or overwhelm any dark matter signals. Studies
+are ongoing, but as of yet the LAT has not picked up any significant signal of gamma rays from
+dwarf spheroidal galaxies. This result does not mean scientists didn’t learn anything, though; the
+observations ruled out many of the most popular dark matter models up to that point.
+Dwarf Spheroidal Galaxies
+In the perplexing world of dark matter, it’s okay to spy on your neighbor! Scientists are investigating
+hints of dark matter in the Milky Way’s closest neighboring galaxy of similar size, Andromeda. Also
+called M31, this galaxy is the nearest large spiral galaxy to us, which can provide clues about our
+own galaxy. Since we can’t observe dark matter directly, these clues come in the form of gamma
+rays, which scientists think dark matter particles produce as they annihilate each other. Fermi’s
+LAT discovered a gamma-ray signal at the center of Andromeda that is uniquely concentrated.
+It’s similar to one Fermi detected at the center of the Milky Way, which means it could reveal more
+about high-energy phenomena even closer to home. So far, the observations cannot eliminate
+alternative possibilities, such as a high concentration of pulsars in the heart of Andromeda.
+Finding similar gamma-ray signals in Andromeda and the Milky Way allows scientists to better
+study and compare two similar galaxies. Due to our position within the Milky Way, emission from the
+galactic disk obscures some of our view; studying Andromeda can therefore serve as a proxy for
+viewing our own galaxy from an outside vantage point. Scientists will keep studying observations
+made with Fermi’s LAT to examine the gamma-ray emission from Andromeda’s galactic center
+and maybe learn more about elusive dark matter.
+Andromeda Galaxy (M31)
+This image of the Andromeda galaxy, M31, shows a yellow-white gamma-ray excess found by
+Fermi at its center. Scientists think a variety of processes could produce the excess, including a
+population of pulsars or the presence of dark matter.
+Credit: NASA/DOE/Fermi LAT Collaboration and Bill Schoening, Vanessa Harvey/REU program/
+NOAO/AURA/NSF
+www.nasa.gov Our High-Energy Universe 70
+Fun Fact:
+School’s In for Summer
+Part of Fermi’s mission is to make gamma-ray science accessible for all. Starting in 2011,
+an integral part of this mission has been the Fermi Summer School. Each year, the
+Fermi team invites early career scientists to the University of Delaware Conference Center in
+Lewes, Delaware, for training in high-energy astrophysics. Days of lectures, hands-on
+workshops, and research culminate in student-led projects. The students, who range
+from graduate students to post-doctoral researchers, work directly with experts in
+gamma-ray instrumentation, analysis, theory, and modeling. Applications for the summer
+school are due each winter, and interested early career scientists are encouraged
+to apply.
+71 Our High-Energy Universe www.nasa.gov
+Students at the Fermi
+Summer School prepare
+a simple Cherenkov
+telescope for a backyard
+demonstration. The telescope
+works by capturing faint
+blue flashes of light from
+cosmic rays that enter Earth’s
+atmosphere. Much larger
+and more sophisticated
+Cherenkov telescopes record
+flashes by very energetic
+gamma rays.
+Credit: Courtesy of Elizabeth
+Hays
+Credit: NASA/Sonoma State University, Aurore Simonnet
+www.nasa.gov Our High-Energy Universe 72
+The Distant Universe
+73 Our High-Energy Universe www.nasa.gov
+Supermassive black holes power thousands of the universe’s most luminous galaxies. Many of
+these galaxies contain an active galactic nucleus (AGN), a dense core that is more than 100 times
+brighter than the combined light of the galaxy’s stars. Approximately a tenth of these galaxies are
+a subtype called blazars.
+A telltale signal of an AGN are jets of radiation and charged particles that shoot outward from
+the galaxy at close to the speed of light. These jets originate from what is known as an accretion
+disk: a flattened, rotating cloud of hot gas and dust surrounding a massive object (in this case, a
+supermassive black hole). As matter falls toward the black hole, it joins the accretion disk, where it
+compresses and heats. Forces including friction redirect the matter nearest the black hole into a
+pair of particle jets that blast outward in opposite directions at nearly the speed of light. In some
+AGN, scientists can track the jets for thousands of light-years. Blazars contain AGN where the jets
+point toward Earth. Many blazars contain black holes billions of times more massive than our Sun.
+Blazars radiate energy across the electromagnetic spectrum. They constitute as much as half of
+the gamma-ray sources that Fermi’s LAT detects. Radiation from blazars has a unique “fingerprint”
+that scientists use to identify their emission in infrared and gamma-ray light. This process is one
+way scientists cross-reference data from multiple NASA telescopes that study different parts of the
+electromagnetic spectrum. Occasionally, blazar jets flare up, greatly brightening for days to years.
+Since these flares occur randomly, blazars require consistent monitoring, which Fermi provides.
+Many of the gamma-ray sources which Fermi has yet to classify are likely related to blazars.
+Blazars
+www.nasa.gov Our High-Energy Universe 74
+Black-hole-powered galaxies called blazars, illustrated here, are the most common sources Fermi
+detects. As matter falls toward the supermassive black hole at the galaxy’s center, some of it is
+accelerated outward at nearly the speed of light along jets pointed in opposite directions. To be
+classified as a blazar, one of the jets must be aimed toward Earth.
+Credit: M. Weiss/CfA
+75 Our High-Energy Universe www.nasa.gov
+Certain events have found their way to great fame among the astronomical community. One
+example is the record-setting flare from blazar 3C 279. This galaxy is powered by a supermassive
+black hole that experienced a disturbance around 5 billion years ago. The disturbance emitted
+high-energy light, which Fermi’s LAT and other observatories detected in June of 2015, when it finally
+reached our planet. The black hole at the center of 3C 279 weighs up to a billion times more than
+our Sun and compares in size to our entire solar system. During the flare, the jets from the black hole
+emitted very high-energy gamma rays, on the order of 100 million to 100 billion electron volts. The
+entire flare lasted around three days, with observatories like NASA’s Neil Gehrels Swift Observatory,
+the Italian Space Agency’s AGILE gamma-ray satellite (called “Astrorivelatore Gamma a Immagini
+Leggero” in Italian), European Space Agency’s INTEGRAL (International Gamma-ray Astrophysics
+Laboratory) spacecraft, and ground-based optical and radio telescopes getting in on the action
+with Fermi.
+Between June 14 and 17, 2015, Fermi observed a shower of gamma rays streaming from blazar
+3C 279. At the time, the flare was the most dramatic the satellite had ever seen. This image
+shows how the gamma-ray sky looked before the blazar’s flare (left) and during (right).
+Credit: NASA/DOE/Fermi LAT Collaboration
+Diving Deeper: Flare 3C 279
+www.nasa.gov Our High-Energy Universe 76
+Scientists can use measurements of a fast-moving jet’s polarized light to determine
+characteristics about the jet’s structure. In this illustration, scientists used the same technique to
+reveal qualities about jets from a gamma-ray burst. Polarized light indicated that the magnetic
+field (right) was orderly, which signaled to scientists that there was a hidden black hole emitting
+a lot of gamma rays.
+Credit: NASA’s Goddard Space Flight Center/S. Wiessinger
+Despite all Fermi has taught scientists about blazars in gamma rays, unpacking these cosmic
+curiosities requires studying many different qualities of light. Astronomers can measure what is
+known as the polarization of light to understand more about the structure of blazar jets. Light from
+our Sun or from a candle is called unpolarized light, because the electromagnetic waves vibrate
+in a variety of directions as they travel through space. Polarized light, on the other hand, vibrates
+on only one plane — for example, up and down or left and right. You have interacted with polarized
+light more than you think; polarization is used in some sunglasses to block glare — in reality, some
+directions of electromagnetic waves — from sunlight.
+Blazar jets all emit light that is somewhat polarized. Scientists can measure the degree of a jet’s
+polarization to tell more about the jet’s structure. For example, if the jet shows a high amount of
+polarization, the jet’s magnetic field is more orderly. If there is a low degree of polarization, the jet
+must have a lot of turbulence that scrambles the magnetic field. If the polarization changes over
+time, this can signal that the jet’s magnetic field has a spiral shape. In general, blazars that emit
+a lot of gamma rays have more polarized light — and therefore more orderly magnetic fields —
+than blazars that emit fewer gamma rays. Sometimes, a blazar’s changing polarization can even
+correlate with a gamma-ray flare.
+Diving Deeper: Understanding Jets
+77 Our High-Energy Universe www.nasa.gov
+If you thought gamma rays were hard to detect, they have nothing on neutrinos. These tiny
+subatomic particles have no charge and almost zero mass. They interact so little with other
+matter that scientists have nicknamed them “ghost particles.” Incredibly, though, they are the
+most common particle in the universe — so a proportion of them must interact with matter and
+be detectable. The world’s leading neutrino detector is the IceCube Neutrino Observatory in
+Antarctica. When a high-energy neutrino interacts with the ice in IceCube, it generates a slew of
+particles that create a flash of light called Cherenkov radiation. IceCube detects this radiation
+and records the direction of the neutrino, which travels in a straight line. A similar process is used
+in ground-based observatories that detect gamma rays.
+While scientists have gotten better at identifying neutrinos, they still struggle to determine
+their sources. One of the more promising possibilities is blazars, the active galactic nuclei that
+shoot out jets of charged particles toward Earth. Blazar TXS 0506+056 was the first to provide
+evidence that blazars may emit neutrinos, since its gamma-ray emission was confirmed and
+neutrinos were found coming from its direction. An IceCube study later used 137 blazars detected
+by Fermi’s LAT to search for signs of neutrinos, but unfortunately did not find any definitive
+neutrino signals. However, IceCube has since detected evidence of neutrinos from the galaxy.
+Collaborations between IceCube and Fermi are an example of multimessenger astronomy
+because they combine observations from multiple signals: neutrinos and gamma-ray light. They
+are some of the most important studies for Fermi’s future, and both the GBM and LAT continue to
+monitor the sky for evidence of neutrino sources.
+Diving Deeper: Neutrinos
+In this illustration, the IceCube Neutrino Observatory
+at the South Pole is represented by strings of sensors
+under the ice. On September 22, 2017, IceCube detected
+a high-energy neutrino that appeared to come from
+deep space. Fermi (top left) pinpointed the source
+as a supermassive black hole in a galaxy located
+about 4 billion light-years away. It was the first ever
+identified source of a high-energy neutrino from outside
+our galaxy.
+Credit: NASA/Fermi and Aurore Simonnet, Sonoma
+State University
+www.nasa.gov Our High-Energy Universe 78
+In this image, the radio jets of several active galaxies mapped by the Very Long Baseline
+Array (VLBA) are inset into Fermi’s gamma-ray sky map. Some of the most active galaxies
+emit strongly in both radio and gamma rays.
+Credit: NASA/DOE/Fermi LAT Collaboration and NRAO/AUI/MOJAVE Team/M. Kadler
+Studying blazars is not without challenges. Due to the relatively small amount of gamma rays
+Fermi’s LAT detects, its resolution — think of it as the sharpness of Fermi’s LAT images — is fairly
+fuzzy. This means that when Fermi detects gamma rays from faraway sources, the telescope
+is more sure of the general direction from which they came rather than the particular source.
+This constraint is due to the LAT’s pair production process, which is different from a telescope
+like Hubble or Webb that focuses light.
+Radio telescopes can take Fermi’s data and identify which blazar created the
+gamma-ray-producing jets Fermi observed, often from hundreds in a specific area of the sky.
+This process works because blazars also emit strong radio radiation, making them unique
+objects that emit radiation from the lowest to the highest energies.
+Diving Deeper: Radio Collaboration
+79 Our High-Energy Universe www.nasa.gov
+Fun Fact:
+Too Close for Comfort
+Even though the space deemed low-Earth orbit is vast, it’s far from empty. On March
+29, 2012, NASA’s Conjunction Assessment Risk Analysis (CARA) team at NASA’s Goddard
+Space Flight Center alerted the Fermi team to an important orbital traffic issue: Cosmos
+1805, a defunct Cold War spy satellite, was on an orbit set to cross Fermi’s in six days’ time.
+The two spacecraft would miss each other by a mere 700 feet (~200 meters) — far too
+close for comfort. Cosmos 1805 weighed 3,100 pounds (1,400 kilograms) and had a
+relative speed to Fermi of 27,000 miles per hour (17,000 kilometers per hour), posing
+certain destruction to both spacecraft if a collision occurred. The uncertainties present
+in predicting spacecraft orbits one week out meant that the Fermi team couldn’t be too
+careful. In fact, as the days before the flyby passed, orbital traffic controllers indicated that
+the two spacecraft would occupy the same point in space within only 30 milliseconds of
+each other.
+Luckily, Fermi had a tool that enabled it to dodge trouble: its thrusters, designed to bring
+the spacecraft out of orbit when its mission ended. This wasn’t a fail-safe approach.
+The thrusters had never been tested before out of concern that the highly flammable
+fluids might cause a leak or an explosion. But as Cosmos 1805 and Fermi barrelled
+toward each other, the Fermi team had little choice. Many people collaborated to select
+the time and the amount of push needed, and to check that the new orbit wouldn’t put
+Fermi at risk of colliding with another object. Shortly after noon EDT on April 3, Fermi
+stopped its all-sky survey and fired its thrusters for only one second. The plan was a
+success. Scientists reported that it felt like a weight had been lifted. By 1:00 p.m., Fermi was
+doing normal science operations once again, and the next day, Cosmos 1805 soared by
+with a roomy six miles of space. Talk about a close call!
+Though Fermi has not needed another maneuver in its lifetime, CARA and the flight
+operations team continue to monitor potential traffic jams and plan accordingly.
+On March 29, 2012, the Fermi science team
+learned that a defunct Cold War spy
+satellite was expected to occupy the same
+point in space as Fermi within 30 milliseconds.
+Thanks to a maneuver by the Fermi science
+team, a collision was avoided.
+Credit: NASA’S Goddard Space Flight Center
+www.nasa.gov Our High-Energy Universe 80
+One high-energy phenomenon is so compelling that it warranted a dedicated instrument onboard
+Fermi: gamma-ray bursts (GRBs). GRBs are short-lived bursts of gamma rays that last from
+milliseconds to several minutes, followed by a light show across the electromagnetic spectrum that
+can last hours to years. Their energy is hundreds of times larger than that of normal supernovae,
+and they are around a million times brighter than the Sun. Aside from the big bang, they are the
+most powerful explosions in the universe. Scientists first discovered GRBs in the late 1960s when
+U.S. military satellites searched for evidence of covert nuclear tests, whose explosions also produce
+gamma rays. GRBs occur both close by and at the farthest reaches of the observable universe,
+when the universe was billions of years younger than it is today. Scientists use the GBM and LAT
+to localize GRBs, thereby attributing them to general areas in space. We detect GRBs when their
+radiation, concentrated into a narrow jet traveling at the speed of light, points at Earth.
+Gamma-ray bursts begin with the birth of a new black hole, which launches these high-speed jets
+of material. Astronomers divide the initial burst of gamma-rays into two main categories that are
+roughly split by duration: short and long. Short-duration bursts last less than two seconds. They
+typically occur when two neutron stars — the collapsed cores of massive stars — merge violently
+to form a new black hole, or when a neutron star merges with a black hole to form a larger black
+hole. Direct evidence of this second kind has yet to be observed. Long-duration bursts last longer
+than two seconds. They typically occur when massive stars explode in supernovae, though not
+every supernova produces a GRB.
+After the initial burst, the high-energy jets expand outward, interacting with the surrounding
+environment to produce what’s known as an afterglow. Studying the afterglow tells us about the
+evolution of the star system that exploded and the environment it called home. Afterglows emit
+radiation from radio to very high-energy gamma-rays, enabling many other telescopes like Swift
+and Hubble to work with Fermi to learn more about GRBs. Today, Fermi is at the front of the GRB
+field, detecting about one per day. The number of detected gamma-ray bursts indicates that our
+early universe was turbulent and full of fascinating energetic phenomena.
+Gamma-ray Bursts
+A cartoon of a gamma-ray burst and its powerful jets.
+Credit: NASA’s Goddard Space Flight Center.
+An illustration showing two neutron stars beginning to merge, blasting a jet of high-speed particles
+and producing a cloud of debris. This kind of intense merger produces a short gamma-ray burst.
+Credit: A. Simonnet (Sonoma State Univ.) and NASA’s Goddard Space Flight Center
+81 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 82
+This illustration shows the BOAT GRB’s location as seen from Earth (left) and our line of sight to it
+through our Milky Way galaxy (right). The BOAT is thought to have been the brightest gamma-ray
+burst since human civilization began.
+Credit: NASA’s Goddard Space Flight Center
+Gamma-ray bursts are always finding ways to impress scientists. In 2022, Fermi and other
+observatories recorded a gamma-ray burst so massive it earned a distinctive title: the BOAT, or
+brightest of all time. Officially named GRB 221009A, the BOAT was likely the brightest high-energy
+burst in the history of human civilization, since bursts of this magnitude occur only once every 10,000
+years. The BOAT was so bright that it overloaded most gamma-ray instruments, but Fermi’s GBM
+reconstructed its data to determine the event was 70 times brighter than any other burst ever seen.
+The light from the BOAT traveled for around 1.9 billion years to reach Earth and was categorized as
+a long-duration GRB which lasted 289 seconds — longer than most other bursts Fermi has seen.
+Long-duration bursts are typically followed by supernovae, since the GRB signals the collapse of a
+massive star to form a black hole. NASA’s Webb and Hubble have been enlisted to study the area
+around the burst to search for the supernova, and may have found a signal in August 2023. Such a
+close and powerful GRB enables scientists to learn about the birth of a GRB jet, the kinds of radiation
+it emits over time, and even how black holes might recycle energy back to the universe rather than
+consume it.
+Diving Deeper: The BOAT
+Cosmic events often signal their occurrences to us in more ways than one — we just have to
+figure out how to interpret them. Gamma-ray bursts are one clear signal of powerful events in our
+universe’s past. Gravitational waves, ripples in space-time predicted by Einstein, can be another.
+On August 17, 2017, the gravitational-wave observatories LIGO (The National Science Foundation’s
+Laser Interferometer Gravitational-Wave Observatory) and Virgo (funded by Italy’s Istituto
+Nazionale di Fisica Nucleare and France’s Centre National de la Recherche Scientifique) detected
+gravitational waves seconds before Fermi’s GBM detected an almost two-second GRB. The timing
+of the two signals indicated that they originated from the same event: the merging of two neutron
+stars. While it may seem logical for two energetic phenomena to result from the same high-energy
+event, this was actually the first time scientists ever detected light and gravitational waves from
+the same source. In effect, astronomers linked what we can “see” (light) and what we can “hear”
+(gravitational waves).
+Detecting this monumental event gave scientists the first-ever measurement of the speed of
+gravity, which turns out to travel at essentially the speed of light. Additionally, over 70 telescopes
+observed a kilonova (a bright blast of electromagnetic radiation from merging neutron stars) and
+its afterglow that resulted from the same event that caused the GRB. Such a huge, coordinated
+observation effort had never been seen before and led to many physics and astronomy discoveries.
+To continue finding evidence of gravitational waves, astrophysicists can comb the data around
+the time of short GRBs, since the merging of neutron stars consistently produces both signals. By
+putting the two signals together into one powerful tool, we can probe what happened before and
+after the neutron stars merged.
+Diving Deeper: Gravitational Wave Counterparts
+A cartoon from 2017 showing Fermi observing a gamma-ray burst from the same merging neutron
+stars that caused gravitational waves to reach Earth. “Seeing” light and “hearing” gravitational
+waves from the same event enhances our ability to understand extreme cosmic phenomena.
+Credit: NASA’s Goddard Space Flight Center
+83 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 84
+The first sign of the 2017 neutron star merger was a detection of a signal in gravitational waves
+(bottom). Fermi’s GBM detected a brief burst of gamma rays (top) 1.7 seconds later. This was the
+first-ever detection of gravitational waves and light from the same event.
+Credit: NASA’s Goddard Space Flight Center, Caltech/MIT/LIGO Lab and ESA
+As our understanding of the world progresses, scientists often come back to the very principles
+that we use as our framework. Probing the theories at the foundation of physics helps us to confirm
+or rethink how our universe might be organized. One such principle is called Lorentz invariance. It
+expresses the idea that the laws of physics are the same no matter the observer and is a central
+tenet of Einstein’s theory of special relativity. For example, the speed of light would be the same
+for you, standing on the ground, and your friend, sitting on a train moving hundreds of miles per
+hour. The past century of experiments has confirmed Lorentz invariance. However, that doesn’t
+stop scientists from theorizing. Theoretical physicists propose that due to the different energies of
+light, there might be tiny differences in light’s speed. Experiments to test this idea need to be at the
+smallest of scales, with extremely sensitive measurements.
+One candidate for probing Lorentz invariance is gamma-ray bursts. Since GRBs release some of
+the highest-energy light over some of the longest distances, scientists are using Fermi to delve into
+this area of theoretical physics. Scientists hypothesize that if Lorentz invariance can be violated,
+we would observe a difference in the amount of time two photons of light with different energies
+take to travel to us from the same distant cosmic source. One team used four GRBs to conduct
+their analysis, focusing on the time in the GRBs when there is the most variability in the light pulse’s
+timing. While the study did not find a violation of Lorentz invariance, it did constrain what the energy
+difference between the photons could be. More recent studies used the same methods with similar
+results. Lorentz invariance violation is an exciting example of how Fermi’s work can apply observing
+the cosmos’ energetic events to rethinking the very principles of physics that govern them.
+Diving Deeper: Lorentz Invariance Violation
+Some theorists predicted travel
+delays for higher-energy photons
+that interact more strongly with
+space-time, as suggested in this
+illustration, where one gammaray photon (purple) carries a
+million times the energy of the
+other. Yet Fermi data from a
+gamma-ray burst failed to show
+this effect, upholding the theory of
+Lorentz invariance, a central idea
+in theories of gravity.
+Credit: NASA/Sonoma State
+University/Aurore Simonnet
+85 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 86
+Gamma rays interact with EBL, which gives astronomers a way to probe the stellar content of
+the cosmos. When a gamma ray (magenta) strikes ultraviolet or visible light (blue), the photons
+are transformed into an electron and its antimatter counterpart, a positron. This process, shown
+in the middle of the graphic, removes gamma rays from the spectra of bright sources like
+blazars. Farther sources have more removed gamma rays (more attenuation) than closer ones.
+Credit: NASA’s Goddard Space Flight Center
+We often imagine the area between stars and galaxies as a vast black space, devoid of light.
+But this isn’t quite true. The universe has a very faint glimmer from all of the stars, galaxies, and
+active galactic nuclei that have ever existed, whose emitted light continues to travel through the
+cosmos. Combining the total light from all of these objects is called extragalactic background
+light (EBL). EBL covers light from the infrared to the ultraviolet and can be tricky to measure
+due to the nearby bright sources of light in our Milky Way obscuring the background signal.
+Despite challenges, scientists have pushed to study EBL to help us learn about the formation
+and evolution of our fascinating universe.
+Astronomers developed a clever way to measure EBL: using gamma rays. In principle, gamma
+rays emitted by distant sources like blazars and gamma-ray bursts interact with EBL photons to
+create electron-positron pairs. This process effectively absorbs the gamma rays — just like in the
+Fermi LAT — and leaves a distinct imprint in the gamma-ray spectrum of cosmic sources. You
+can think of this process of dampening the gamma-ray signal much like fog dimming the light
+of a distant lighthouse. Scientists can measure the imprint and work backward to measure EBL
+itself. Using Fermi’s LAT, scientists found that the amount of gamma rays absorbed by EBL differs
+based on the age of the universe when the gamma rays were emitted. They attribute this finding
+to the increase in star formation over our universe’s history. Many other observatories are also
+hard at work measuring EBL, with important contributions from observatories that study the most
+energetic gamma rays in the teraelectron volt range. Fermi has yet again helped scientists
+to constrain one of the underlying characteristics of our universe, effectively shining light on
+the light that shines on us.
+Extragalactic Background Light
+Fermi Bubbles
+Looking to Fermi’s Future
+These artistic designs of different important Fermi concepts show the beauty of the spacecraft
+and gamma-ray science.
+Credit: NASA/Fermi Gamma-ray Space Telescope/Sonoma State University/Aurore Simonnet
+87 Our High-Energy Universe www.nasa.gov
+Active Galaxies
+Fermi Skymap
+Fermi Satellite
+Fermi Bubbles
+Merging Neutron Stars
+Supernova Remnants
+www.nasa.gov Our High-Energy Universe 88
+Welcome back from your journey through Fermi’s high-energy universe! You’ve learned about
+cosmic curiosities from near to far and how Fermi helps scientists study them.
+Fermi has made many incredible discoveries over its first 15 years, but its work is far from over.
+The telescope remains healthy and will continue to serve as a cornerstone of gamma-ray exploration for years to come. As scientists delve deeper into the gamma-ray universe, their work with
+Fermi will focus on a few main areas. These include searching for high-energy phenomena that
+exist but Fermi hasn’t yet detected, collaborating with new ground-based observatories, making
+ongoing progress toward astrophysics’ big questions, and probing the “unknown unknowns” of
+gamma-ray science.
+Fermi has yet to detect some of the highest-energy phenomena scientists know of. This is the
+case for a number of reasons, including gas and dust obscuring Fermi’s view of the events, the
+faintness of the events, or just statistical improbability. Astronomers hope that Fermi’s keen eye
+will detect such events in the near future, lending us greater detail about the gamma rays these
+events produce.
+Observing a galactic supernova is at the top of the list of must-sees. The last supernova in our
+Milky Way galaxy was detected in 1604 by German astronomer Johannes Kepler. The next closest
+supernova, 1987A, occurred in 1987 in the Large Magellanic Cloud, a companion galaxy of the Milky
+Way. Astronomers estimate that one to three stars in our galaxy should statistically explode as a
+supernova every century, making us “overdue.” Scientists are on the lookout for a supernova not
+only in light, but also in neutrinos and gravitational waves. Today, the astrophysical community
+would know a supernova was occurring before any telescope saw it. A network of neutrino
+detectors called the Supernova Early Warning System (which includes frequent Fermi partner,
+the NSF’s IceCube Neutrino Observatory) would record hundreds or thousands of neutrinos.
+Gamma-ray detections would surely follow, enabling scientists to collect detailed information
+about supernovae like never before.
+Another phenomenon the Fermi team hopes to observe is a galactic magnetar flare. Scientists
+have not had to wait nearly as long for such an event — the last one occurred in 2004 — but neither
+Fermi nor its predecessor, Compton, were in orbit at the time. Magnetar flares are so intense that
+their light has temporarily overloaded scientific instruments in the past, so astronomers hope to
+record future flares with more precision. As with nearby supernova 1987A, a nearby magnetar flare
+in the Sculptor galaxy in 2020 provided insight as to what a magnetar flare in our galaxy could
+look like. The next time around, scientists will also rely on LIGO (The NSF’s Laser Interferometer
+Gravitational-Wave Observatory), Virgo (funded by Italy’s National Institute of Nuclear Physics,
+INFN, the French National Center for Scientific Research, CNRS, and the Netherlands’ Nikhef), and
+KAGRA (the Kamioka Gravitational Wave Detector funded by Japan’s Ministry of Education, Culture,
+Sports, Science, and Technology), three gravitational wave detectors, to measure the event.
+The three detectors comprise the International Gravitational Wave Network (IGWN). Studying
+magnetar flares in light and gravitational waves will help us better understand their high-energy
+inner workings.
+Fermi will continue observing the sky as long as it is in operation, reassuring scientists that if a rare
+cosmic spectacle occurs, Fermi will be there to capture it.
+Observing the Extraordinary
+89 Our High-Energy Universe www.nasa.gov
+In this illustration, a black hole drives powerful jets of particles traveling near the speed of light. The
+jets pierce through the star, emitting light across the electromagnetic spectrum as they stream into
+space.
+Credit: NASA/Swift/Cruz deWilde
+www.nasa.gov Our High-Energy Universe 90
+When it comes to astrophysics, the more observatories the merrier. Collaboration is at the heart
+of science, and observatories frequently work together to uncover more information about our
+universe. However, prior to the late 20th century, gamma-ray science was an understated part of
+collaboration in astrophysics. The detectors used to study gamma rays were not yet advanced,
+and optical and infrared telescopes took center stage. As science has advanced, though, space
+agencies and science institutions around the world have built numerous other observatories to
+study all wavelengths of light and cosmic signals like neutrinos and gravitational waves. In this
+new era of astronomy, Fermi is an invaluable member. Gamma rays provide a unique look into
+the highest-energy phenomena of our universe, complementing the work of telescopes exploring
+lower-energy light as well as particle observatories. Studying events using multiple cosmic signals
+is called multimessenger astronomy and is central to Fermi’s future at the forefront of astronomy.
+Combining Fermi’s extensive gamma-ray record with new observations by a multitude of telescopes
+gives new meaning to Fermi’s data and demonstrates its ongoing importance in the astronomical
+community.
+One of the most exciting Fermi collaborations is with the IceCube Neutrino Observatory. Spanning
+about one-fourth of a cubic mile (or a cubic kilometer) and buried in the Antarctic ice, IceCube
+detects light emitted by particles that neutrinos produce when they interact with ice. It is the largest
+neutrino detector ever built and has already detected the highest-energy neutrinos ever observed.
+Scientists theorize that neutrinos and gamma-rays can come from the same cosmic sources, like
+active galactic nuclei and gamma-ray bursts. Combining measurements from Fermi and IceCube
+provides fascinating insight into the highest-energy phenomena known. For example, IceCube
+discovered a neutrino that Fermi’s LAT and other observatories confirmed came from a blazar jet.
+This finding shocked the astrophysics community by proving that the process where a black hole
+creates blazar jets must be powerful enough to boost protons — which decay into neutrinos — to
+near the speed of light. Prior to this neutrino observation, scientists believed that the jet creation
+process was only powerful enough to accelerate electrons, which are 1,000 times smaller than
+protons. Such a finding showed astrophysicists that there must be a missing component in how
+we understand the energy around black holes. Future IceCube-Fermi collaborations are sure to
+excite particle physicists and astronomers alike.
+Another key collaboration is between Fermi and gravitational wave detectors like the LIGO, Virgo,
+and KAGRA. Gravitational waves, the ripples in space-time about which Einstein theorized, weren’t
+detected until 2015. Since that tremendous accomplishment, the field has advanced rapidly.
+Studying gravitational waves is important because they provide complementary information to
+light and are not as distorted by matter and gravity, meaning that they reveal different information
+about source objects. Scientists believe that using gamma rays can help detect more gravitational
+waves, both of which come from powerful cosmic events like supernovae and merging neutron
+stars. Fermi will continue to watch the sky for gamma-ray bursts that may be counterparts to
+gravitational wave events, and alert other telescopes to its findings.
+Pioneering Multimessenger Astronomy
+91 Our High-Energy Universe www.nasa.gov
+www.nasa.gov Our High-Energy Universe 92
+A second collaborative technique is pulsar timing arrays: a way to study the tiny variations in the
+timing of millisecond pulsars’ pulses to determine that gravitational waves interacted with their
+light. Here, the goal is to measure gravitational waves from merging supermassive black holes, not
+merging neutron stars. The single most important way to advance this work is for Fermi to detect
+more pulsars, strengthening the patterned data so that disruptions by gravitational waves are
+more apparent. Radio telescopes use these pulsars to form their own pulsar timing array, while
+Fermi itself can be used as a gamma-ray pulsar timing array. Fermi has already detected 150
+millisecond pulsars, and its LAT continues scanning for more.
+Not only does Fermi collaborate in multimessenger astronomy, but it also works with other
+gamma-ray observatories by telling them where to look. The multinational Cherenkov Telescope
+Array (CTA), soon to be the first ground-based gamma-ray observatory in the world with publicly
+available data, will focus on higher-energy gamma-ray light (100 gigaelectron volts (GeV) to 10
+teraelectron volts (TeV)). CTA will push gamma-ray science further into the spotlight, engaging
+the worldwide scientific community in studying the highest-energy light known. While gamma
+rays cannot reach Earth’s surface due to the protection of our atmosphere, gamma rays that
+interact with the atmosphere produce a slew of particles that release a visible glow called
+Cherenkov light, which CTA will detect. Unfortunately, this process is so rare that scientists predict
+only one bright gamma-ray photon per square meter can be detected each year. CTA will therefore
+have more than 60 telescopes that look at the gamma-ray sky, with expectations to detect more
+than 1,000 new gamma-ray-emitting objects. When CTA is completed in 2025, it will be able to probe
+the gamma-ray sources Fermi detects at even higher energies, enabling scientists to better study
+the most energetic areas of the cosmos like the regions around neutron stars and black holes.
+A cartoon of two neutron stars as they spiral around each other before a collision that produces a
+gamma-ray burst.
+Credit: NASA’s Goddard Space Flight Center.
+93 Our High-Energy Universe www.nasa.gov
+Fermi (top left), NASA’s Neil Gehrels Swift Observatory (top right), and the MAGIC CTA observatory
+in the Canary Islands observe GRB 190114C in this illustration.
+Credit: NASA/Fermi and Sonoma State University, Aurore Simonnet
+Just as philosophers question the meaning of life, theoretical physicists question the nature of the
+universe. What happened just after the big bang? Why is the universe’s expansion speeding up?
+What is the nature of dark matter? Enormous as these questions are, scientists explore them by
+merging theory with ever more precise observations. Scientists use experiments and telescopes
+like Fermi to design and test hypotheses that reveal details about our universe’s history and
+properties. Fermi, in effect, gives scientists the tools they need to ask the right questions.
+Scientists have always been intrigued by the objects that lend themselves exceedingly well to
+sci-fi: black holes. Fermi has studied the gamma rays from stellar-scale to supermassive black
+hole jets, but we still don’t know much about the nature of the black holes or their environments.
+For one, how does a black hole accelerate particles to nearly the speed of light to form jets? What
+are those jets made of? IceCube discovered that neutrinos can also be in the jets, but we don’t
+know if this is true in all cases. Fermi will continue to observe gamma-ray bursts and blazars to
+hopefully answer some of these fascinating questions.
+Astronomers also hope to push the limits of space-based astronomy by asking questions like:
+How early in the universe can we see gamma rays from black holes? In 2023, NASA’s Webb
+discovered the oldest black hole yet, existing only 570 million years after the big bang. The Fermi
+team hopes to observe gamma rays from black holes — a dead giveaway that the black hole
+is accreting energy and spewing it out as jets — to see what kind of emission shaped our early
+universe. Additionally, scientists are searching the universe to ask: Can we detect pairs of
+supermassive black holes using gamma rays? The leading technique is actually designed to
+identify long gravitational waves, which theorists believe result from orbiting pairs of supermassive
+black holes. Detecting tiny changes in the timing of light emanating from an array of gamma-ray
+pulsars would tell us details about their source black hole system — for example, its mass — which
+are otherwise too hard to discern due to distance. Astronomers are so confident in this technique
+that the question is more “when” than “if” this detection will happen. Fermi’s unique gamma-ray
+skillset will ultimately help theorists probe the large lingering questions about how black holes
+form and grow.
+Perhaps chief among all of space’s mysteries is the nature of dark matter. We know dark matter
+comprises about 85% of the universe’s total matter and 25% of its total energy, but most of its
+other characteristics elude us. Some of the open questions include: What is dark matter made of?
+Is dark matter present in all galaxies? Can normal matter decay into dark matter? Will we ever
+detect dark matter directly? Fermi astronomers aim to keep searching for gamma rays that result
+from the annihilation of dark matter particles, and therefore constrain more about the mysterious
+substance that pervades our cosmos. Often, findings in this area take the shape of ruling out
+where dark matter cannot exist. Some of the places where scientists were sure they would find dark
+matter (like galaxy clusters) actually came up empty. Constraining what dark matter is not has
+proven a valuable approach in the search for this strange material.
+Asking the Big Questions
+www.nasa.gov Our High-Energy Universe 94
+In the heart of an active galaxy, matter falling toward a supermassive black hole creates jets of
+particles traveling near the speed of light, illustrated here. Scientists are hoping Fermi can help
+reveal what these jets are composed of.
+Credit: NASA’s Goddard Space Flight Center Conceptual Image Lab
+Another one of astronomy’s big questions Fermi had a hand in opening: What causes the excess of
+gamma rays at the galactic center? Seen both in the Milky Way and nearby Andromeda galaxies,
+there is a mysterious concentration of extra gamma rays coming from the center. Scientists have
+yet to determine if this excess high-energy light is due to a hidden population of pulsars or elusive
+dark matter. Determining the answer would not only help constrain our knowledge of dark matter
+but also teach us more about our home and our nearest neighbor in the universe.
+95 Our High-Energy Universe www.nasa.gov
+The astronomy community is doubtlessly excited about the future of Fermi research. There are
+many open questions that scientists are itching to explore. Though potentially more exciting are
+the questions we have yet to ask. The universe is incomprehensibly large and holds an astounding
+number of cosmic objects. As Fermi keeps probing the universe from far to near, from the beginning
+to the present, the chances of uncovering something rare or unexpected increase. In fact, the
+Fermi community has found more surprises as the mission has continued, including the Fermi
+Bubbles, gamma-ray-only pulsars, and gamma rays from novae. These “unknown unknowns” are
+what drive scientific exploration. What does humanity have yet to discover that will challenge our
+understanding of physics and redirect astronomical efforts? What cosmic curiosities will be the
+missing piece to our most puzzling theories, and which ones will open up entirely new hypotheses?
+What objects will remind us of our home galaxy, and which ones will look unlike anything ever
+seen? The unknown unknowns are what keep science exciting and make Fermi’s mission ongoing.
+The universe is vast and full of wonder; with Fermi constantly surveying the sky, we can only dream
+about what we will discover next.
+Exploring the Unknown Unknowns
+An artist’s rendering of NASA’s Fermi Gamma-ray Space Telescope in orbit above Earth.
+Credit: NASA’s Goddard Space Flight Center/Chris Smith (USRA/GESTAR)
+www.nasa.gov Our High-Energy Universe 96
+Glossary
+ACCRETION DISK
+A relatively flat cloud of gas or dust surrounding any massive object growing in size by attracting
+matter, such as a newborn star or black hole.
+ACTIVE GALACTIC NUCLEUS/NUCLEI (AGN)
+A class of galaxies whose central regions appear much brighter than ordinary galaxies and are also
+strong sources of X-ray, gamma-ray, and other radiation. Astronomers think supermassive black
+holes at the centers of AGN produce this additional energy as they accrete matter. Radio galaxies,
+quasars, and blazars are all types of AGN.
+AFTERGLOW
+Electromagnetic radiation that often follows the initial burst of gamma rays in a gamma-ray burst.
+It occurs due to the interaction of the jet with the surrounding environment. Afterglows can persist
+for days to weeks, gradually dissipating with time. In extreme cases, they can endure for years.
+ALL-SKY MAP
+A single map showing data across the entire sky, similar to a single map showing Earth’s entire
+surface. The Fermi all-sky map is usually depicted as a blue oval with a yellow and orange band
+representing brighter gamma-ray emission along our galaxy’s central plane. Brighter gamma-ray
+sources, like pulsars and active galaxies, are depicted as distinct white, orange, and yellow dots.
+ANGULAR MOMENTUM
+A property of a mass or system of masses turning about some fixed point, for example, a planet
+in orbit around a star. It is defined as the body’s mass multiplied by its velocity and its distance
+from the center of motion. In a closed system, it is a conserved quantity in physics, which means it
+remains constant.
+ANNIHILATION
+The mutual conversion of a particle and its antiparticle into electromagnetic radiation, converting
+their mass (m) into energy (E) according to Einstein’s famous formula, E = mc2, where c is the speed
+of light. An electron and a positron annihilate to produce two gamma-ray photons, each with an
+energy of 511 keV.
+ANTICOINCIDENCE DETECTOR (ACD)
+A system that detects unwanted charged particles so they are not confused with target particles
+or gamma rays. On the Fermi Gamma-ray Space Telescope, the LAT ACD triggers when it detects
+a charged particle entering the telescope so the particle is not mistaken for a gamma ray.
+97 Our High-Energy Universe www.nasa.gov
+ANTIMATTER
+Counterparts of the subatomic particles making up normal matter that have opposite properties,
+typically electrical charge. When a particle and its antiparticle collide, they annihilate. The positron
+is the antiparticle of the electron.
+ARCMINUTE
+An angular measurement equal to 1/60th of a degree. It is approximately the smallest angle
+discernible to the unaided human eye. As viewed from Earth, both the Sun and the Moon appear
+about 30 arcminutes across.
+ASTRONOMY
+The scientific study of matter in outer space, especially the positions, dimensions, distribution,
+motion, composition, energy, and evolution of celestial bodies and phenomena.
+ASTROPHYSICS
+The branch of astronomy concerned with the physical nature of stars, galaxies, interstellar clouds,
+and other objects, including their luminosities, temperatures, densities, and chemical composition.
+ATMOSPHERE
+The envelope of gas that surrounds a planet or star.
+BIG BANG
+A widely accepted model of the universe that explains its observed properties by postulating that it
+originated as a tiny, superdense, rapidly expanding fireball about 13.8 billion years ago. The universe
+expanded, cooled, and condensed into subatomic particles that later accumulated into the matter
+that formed stars and galaxies. The model naturally explains the cosmic microwave background,
+the expansion of space, and the ratio of hydrogen, helium, and other light elements observed
+throughout the universe.
+BINARY STARS
+Two stars that are gravitationally bound together and orbit their common center of mass.
+BLACK HOLE
+An object whose gravity is so strong that not even light can escape from it. Black holes are completely
+characterized by only three parameters: mass, rotation, and electrical charge. Supermassive black
+holes weighing hundreds of thousands to billions of solar masses are observed at the centers of
+most large galaxies and power AGNs.
+BLAZAR
+A type of active galactic nucleus often appearing as a bright, highly variable point-like source.
+Blazars vary dramatically in all observable parts of the electromagnetic spectrum, so studying
+them requires simultaneous multiwavelength observations. An accreting supermassive black hole
+at the center of a blazar expels jets of matter in opposite directions that travel at nearly the speed
+of light. Blazars appear so bright and variable because we are looking almost directly down the
+barrel of one jet.
+www.nasa.gov Our High-Energy Universe 98
+CALORIMETER
+An instrument that measures the energy of a particle or photon through the amount of heat or light
+the particle or photon deposits in a material.
+CHERENKOV RADIATION
+High-energy gamma rays and cosmic rays observed through the faint flashes of blue light they
+produce when interacting with Earth’s atmosphere. High-energy radiation entering the atmosphere
+eventually collides with molecules in the air. Each impact shatters the molecule’s atoms into their
+constituent particles — protons, neutrons, electrons — and produces others, such as muons and
+pions. These particles then strike other atoms, producing more fast-moving debris that breaks
+apart more atoms, and so on. This cascade of particles moves faster through air than light is able
+to, which results in a broad blue flash called Cherenkov light, named for the Russian physicist Pavel
+Cherenkov (1904–1990).
+CITIZEN SCIENCE
+A form of open collaboration in which individuals or organizations participate voluntarily in the
+scientific process.
+COMPTON GAMMA RAY OBSERVATORY
+NASA’s first gamma-ray observatory and Fermi’s predecessor. Compton launched in April 1991, and
+the mission ended in June 2000. Compton created the first all-sky gamma-ray map.
+COMPTON SCATTERING
+A transfer of energy between a photon and a particle, such as an electron, that lowers the photon’s
+energy and increases the particle’s velocity. Inverse Compton scattering occurs when a charged
+particle transfers some of its energy to a photon, boosting it to higher energy, and plays an important
+role in astrophysics. When light from microwave to ultraviolet wavelengths collides with a highenergy particle, the interaction can boost the photon to gamma-ray energies.
+COSMIC DUST
+Irregularly shaped grains of carbon and/or silicates measuring a fraction of a micron across which
+are found between the stars.
+COSMIC RAYS
+Atomic nuclei — about 90% of them protons — and elementary particles, such as electrons, that
+travel through interstellar space at speeds approaching that of light.
+DARK MATTER
+Hypothetical matter of unknown composition that does not emit or reflect enough electromagnetic
+radiation to be observed directly, but whose presence can be inferred from gravitational effects
+on visible matter. It is now thought to comprise 26.8% of the total mass-energy in the universe.
+Candidate particles include WIMPs, axions, and even primordial black holes.
+99 Our High-Energy Universe www.nasa.gov
+DENSITY
+The ratio between the mass of an object and its volume. In the metric system, density is measured
+in grams per cubic centimeter (or kilograms per liter).
+DISK
+A flattened, circular region of gas, dust, and/or stars. It may refer to material surrounding a newly
+formed star, material accreting onto a black hole or neutron star, or the large region of a spiral
+galaxy containing the spiral arms.
+DWARF SPHEROIDAL GALAXIES
+Small satellite galaxies that are neighbors to the Milky Way that scientists theorize possess large
+amounts of dark matter. They contain few stars and little interstellar gas and dust.
+EJECTA
+Matter that is hurled outward from an explosive event, such as a volcanic eruption, meteorite impact,
+or supernova.
+ELECTROMAGNETIC RADIATION (WAVES)
+Light in all of its forms, including radio, microwave, infrared, visible or optical light, ultraviolet, X-rays,
+and gamma rays. Electromagnetic radiation moves at the speed of light and as a traveling periodic
+fluctuation of an electric and magnetic field. These fields oscillate at right angles to each other and
+to the wave’s travel direction.
+ELECTROMAGNETIC SPECTRUM
+The full range of frequencies, from radio waves to gamma rays, that characterizes electromagnetic
+radiation (light).
+ELECTRON
+A negatively charged particle commonly found in the outer layers of atoms. The electron has only
+0.0005 the mass of the proton.
+ELECTRON VOLT (EV)
+The change of potential energy experienced by an electron moving from a place where the potential
+has a value of V to a place where it has a value of V+1 volt. This is a convenient energy unit when
+dealing with the motions of electrons and ions in electric fields; the unit is also used to describe
+the energy of X-rays and gamma rays. A keV (or kiloelectron volt) is equal to 1,000 electron volts.
+An MeV (or megaelectron volt) is equal to one million electron volts. A GeV (or gigaelectron volt)
+is equal to one billion (109) electron volts. A TeV (or teraelectron volt) is equal to a million million
+(1012) electron volts.
+www.nasa.gov Our High-Energy Universe 100
+ELEMENT
+A substance made from atoms that have the same number of protons in their nuclei (their
+atomic number). Elements cannot be chemically interconverted or broken down into simpler
+substances and are primary constituents of matter; there are 118 elements known. Hydrogen and
+helium are the simplest and most abundant elements in the universe, making up about 74% and
+24% of all the matter, respectively. Heavier elements — often collectively called “metals” in
+astronomy — comprise about 2% of the Milky Way’s disk but can greatly influence astronomical
+phenomena.
+EMISSION
+The production of electromagnetic radiation by an atom or other object.
+ENRICO FERMI
+A pioneer in high-energy physics and the Fermi spacecraft’s namesake.
+EXTRAGALACTIC
+Beyond our own galaxy, the Milky Way.
+EXTRAGALACTIC BACKGROUND LIGHT
+The total light from all of the stars (and to a lesser extent, galactic nuclei) that have ever existed in
+the observable universe. It extends from the infrared through the optical and into the ultraviolet.
+FERMI ACCELERATION
+A process by which charged particles gain energy through repeatedly passing through magnetic
+fields, typically those associated with the shock waves produced by solar flares or supernova
+explosions. This process produces high-energy cosmic rays, which travel close to the speed of light.
+FERMI BUBBLES
+Giant gamma-ray emitting lobes that extend above and below the center of the Milky Way and
+span 50,000 light-years tip to tip. The bubbles may be related to activity from the supermassive
+black hole at the center of the galaxy or a past burst of star formation.
+FERMI GAMMA-RAY SPACE TELESCOPE
+NASA’s premier space-based gamma-ray observatory. Fermi launched in 2008 and has discovered
+over 6,000 gamma-ray sources.
+FERMI SCIENCE SUPPORT CENTER (FSSC)
+A branch of the Fermi mission based at NASA’s Goddard Space Flight Center that maintains and
+distributes the telescope’s data, provides data analysis tools for the scientific community, plans and
+schedules the science activities on the telescope, and manages the Guest Investigator Program,
+which provides funding to U.S.-based scientists for projects with Fermi.
+FLARE
+A sudden, brief, and intense increase in an astronomical object’s brightness.
+101 Our High-Energy Universe www.nasa.gov
+FLUX
+A measure of the amount of energy given off by an astronomical object over a fixed amount of
+time and area. Flux measurements make it easy for astronomers to compare the relative energy
+output of objects with very different sizes or ages.
+FREQUENCY
+A property of a wave that describes how many wave patterns or cycles pass by in a period of time.
+Frequency is often measured in hertz (Hz), where a wave with a frequency of 1 Hz will go through
+one cycle each second.
+GALACTIC CENTER
+The center of our Milky Way galaxy. It contains a supermassive black hole, extremely hot clouds of
+gas, and orbiting stars, including neutron stars and white dwarfs.
+GALACTIC DIFFUSE EMISSION
+Widespread gamma-ray emission along the plane of our Milky Way galaxy. It arises mostly from
+cosmic rays interacting with interstellar gas, dust, and starlight.
+GALACTIC PLANE
+An invisible plane that divides our galaxy into northern and southern halves (similar to the Earth’s
+equator). Most of the stars and gas in the Milky Way lie along this plane.
+GALAXY
+A component of our universe made up of gas, dust, and numerous (usually more than a million)
+stars held together by gravity.
+GALAXY CLUSTER
+A system of galaxies containing anywhere between a few and a few thousand member galaxies
+that are gravitationally bound together.
+GAMMA RAY
+The highest-energy, shortest-wavelength electromagnetic radiation. Usually, thought of as any
+light having energies greater than about 500 keV.
+GAMMA-RAY BURST (GRB)
+A burst of gamma rays from space lasting from a fraction of a second to many minutes. In general,
+GRBs longer than two seconds are associated with supernovae and are thought to occur when a
+collapsing massive star forms a black hole, driving high-energy jets that drill through the star and
+emit gamma rays when they emerge. Shorter bursts are associated with the end stage of binary
+systems containing either a pair of neutron stars or a neutron star and a black hole, which produce
+similar jets of matter when they merge.
+www.nasa.gov Our High-Energy Universe 102
+GAMMA-RAY BURST MONITOR (GBM)
+The Fermi Gamma-ray Space Telescope’s secondary instrument. It views two-thirds of the entire
+sky at all times and has an energy range of 8 keV to 40 MeV. It detects around 240 gamma-ray
+bursts each year, as well as solar flares, terrestrial gamma-ray flashes, and other gamma-ray
+events.
+GAMMA-RAY LARGE AREA SPACE TELESCOPE (GLAST)
+Fermi’s name before it launched.
+GAS
+One of four states of matter, in which atoms, molecules, or ions move freely and are not bound to
+each other. In astronomy, it usually refers to hydrogen or helium.
+GENERAL RELATIVITY
+The geometric theory of gravitation developed by Albert Einstein (1879–1955), which incorporated
+and extended his theory of special relativity to include accelerated frames of reference and
+introduced the principle that gravitational and inertial forces are equivalent. The theory has
+consequences for the bending of light by massive objects, the nature of black holes, and the fabric
+of space and time.
+GRAVITATIONAL WAVES
+Ripples in space-time caused by the acceleration of massive objects. The first directly detected
+sources include binary systems where orbiting black holes or neutron stars merged together.
+Gravitational waves are also thought to emanate from the motion of matter during the big bang.
+GRAVITY
+A mutual physical force attracting two bodies.
+HIGH-ENERGY ASTRONOMY
+The study of astronomical objects that release radiation at the upper end of the electromagnetic
+spectrum, including X-rays and gamma rays, as well as energetic particles like neutrinos and
+cosmic rays.
+HYDROGEN
+The lightest and most abundant element. A hydrogen atom consists of one proton and one electron.
+Hydrogen makes up about 75% of the Sun’s mass, but only a tiny fraction of Earth’s.
+INFRARED
+Electromagnetic radiation at wavelengths longer than the red end of visible light and shorter than
+microwaves (roughly between one and 100 microns). Almost no infrared light can reach Earth’s
+surface from space, although some portions can be observed by high-altitude aircraft or telescopes
+atop high mountains.
+INTERSTELLAR MEDIUM
+Gas, dust, and other material that exists in the space between stars.
+103 Our High-Energy Universe www.nasa.gov
+JETS
+Oppositely directed beams of particles moving near the speed of light, usually emitted by
+supermassive black holes in active galaxies, pulsars, or gamma-ray bursts.
+LARGE AREA TELESCOPE (LAT)
+The Fermi Gamma-ray Space Telescope’s primary instrument. It is a pair-production telescope
+that views one-fifth of the entire sky at all times. The LAT is around 30 times more sensitive than any
+previous space-based gamma-ray instrument and has an energy range of 20 MeV to 300 GeV.
+LIGHT
+Electromagnetic radiation of all types, from radio waves to gamma rays. Visible or optical light refer
+to the wavelengths detectable by the human eye.
+LIGHT-YEAR
+A unit of length that equals the distance light travels in a year. At the rate of 671 million miles
+per hour (300,000 kilometers per second), one light-year is equivalent to 5,880,000,000,000 miles
+(9,461,000,000,000 kilometers).
+LIMB
+The outer edge of the apparent disk of a celestial body.
+LORENTZ INVARIANCE
+The proposition that the laws of physics are the same for different observers. It is the pillar of Einstein’s
+theory of special relativity.
+LUMINOSITY
+The rate at which a star or other object emits electromagnetic radiation.
+MAGNETAR
+A type of neutron star possessing an unusually intense magnetic field, between 100 and 1,000 times
+stronger than that of a typical pulsar. Astronomers have identified some 30 magnetars.
+MAGNETIC FIELD
+A description of the strength of the force exerted by a magnetic object.
+MASS
+A measure of the total amount of material in a body, defined either by the body’s inertial properties
+or by its gravitational influence on other bodies.
+MATTER
+Any substance that occupies space and possesses mass.
+www.nasa.gov Our High-Energy Universe 104
+MICROWAVE
+Electromagnetic radiation with wavelengths between about 0.04 and 11.8 inches (one millimeter
+and 30 centimeters). Microwaves can be used to study the universe, communicate with satellites
+in Earth orbit, and cook popcorn.
+MILLISECOND PULSAR
+A pulsar with a rotational period between one and 10 milliseconds. The fastest discovered pulsar
+spins 716 times per second.
+MISSION OPERATIONS CENTER (MOC)
+The home of Fermi operations where engineers monitor the spacecraft’s health and safety data,
+send commands to the spacecraft, and transfer its science data to the LAT and GBM teams for
+processing. The MOC is hosted at NASA’s Goddard Space Flight Center and staffed by the Fermi
+Flight Operations Team.
+MULTIMESSENGER ASTRONOMY
+A branch of astronomy that combines information from different signals, including light,
+gravitational waves, neutrinos, and other cosmic particles.
+NASA
+The National Aeronautics and Space Administration, founded in 1958 as the successor to the National
+Advisory Committee for Aeronautics.
+NEBULA (PL. NEBULAE)
+A cloud of interstellar dust and gas.
+NEUTRINO
+A fundamental particle produced in nuclear reactions, such as those occurring in stars. They
+are hard to detect because the vast majority of them pass completely through Earth without
+interacting with other matter.
+NEUTRON
+A particle with approximately the mass of a proton but zero charge, commonly found in the nuclei
+of atoms.
+NEUTRON STAR
+The remnant compact core of a massive star that exploded as a supernova. Neutron stars host
+more than the Sun’s mass in a ball about 12.5 miles (20 kilometers) across and can be observed
+as pulsars and magnetars.
+NOVA (PL. NOVAE)
+A star that experiences a sudden outburst of radiant energy, temporarily increasing its luminosity
+by up to 100,000 times before fading back to its original luminosity.
+105 Our High-Energy Universe www.nasa.gov
+NUCLEUS (PL. NUCLEI)
+In physics, the positively charged core of an atom, composed of protons and (usually) neutrons,
+that makes up nearly all of its mass and around which electrons orbit. The term is also used in
+astronomy for the solid body of a comet and for the central emitting region of active galaxies.
+ORBIT
+The elliptical course of a celestial object or spacecraft about a star, planet, or moon. Also, a complete
+circuit round an orbited body.
+PAIR PRODUCTION
+The physical process whereby a gamma-ray photon, usually through an interaction with the
+electromagnetic field of an atom’s nucleus, produces an electron and an anti-electron (positron).
+The original photon no longer exists, its energy having gone into producing the two resulting
+particles. The inverse process, pair annihilation, creates two gamma-ray photons from the mutual
+destruction of an electron/positron pair.
+PHOTON
+A particle representing the smallest amount (a quantum) of electromagnetic radiation. Photons
+have zero rest mass, no electrical charge, always travel in a vacuum at the speed of light, and carry
+energy equal to their radiation frequency multiplied by Planck’s constant.
+POLARIZATION
+A property of light in which the vibrations of waves in a light beam are at least partially aligned.
+Light may be polarized by reflection or by passing it through filters that transmit vibration in one
+plane but not in others. Polarization measurements allow astronomers to learn much more about
+an object, including their 3D shapes and the strength of their magnetic fields.
+POSITRON
+The antimatter counterpart of the electron, with the same mass and spin but carrying a positive
+charge.
+PROTON
+A particle with a positive charge found in the nuclei of all atoms. The nuclei of each chemical
+element hold a characteristic number of protons, which is known as the atomic number.
+PULSAR
+A rotating neutron star that generates regular pulses of radiation. Pulsars were discovered by
+observations at radio wavelengths but have since been observed at optical, X-ray, and gammaray energies.
+PULSAR TIMING ARRAY
+A method for detecting gravitational waves by monitoring a large number of well-understood
+millisecond pulsars. The passing waves produce correlated changes in the pulse arrival times to
+an observatory.
+www.nasa.gov Our High-Energy Universe 106
+RADIO
+Electromagnetic radiation with the lowest frequencies and the longest wavelengths, produced by
+charged particles moving back and forth.
+RADIO GALAXY
+A type of galaxy that has giant lobes of radio emission extending well beyond its visible structure.
+These lobes, which occasionally emit gamma rays, are powered by jets from the active galactic
+nucleus at its center.
+RED GIANT
+A low- or intermediate-mass star (born with a mass between about 0.5 and five Suns) in an
+advanced phase of stellar evolution, exhibiting high luminosity and low surface temperature. Due
+to internal changes related to the depletion of hydrogen fuel in their cores, the outer envelopes of
+red giants expand greatly, making them hundreds of times larger than the Sun.
+RESOLUTION (SPATIAL)
+In astronomy, the ability of a telescope to differentiate between two objects in the sky that are
+separated by a small angular distance. The closer two objects can be while still allowing the
+telescope to see them as two distinct objects, the higher the resolution of the telescope.
+RESOLUTION (SPECTRAL OR FREQUENCY)
+Similar to spatial resolution, spectral resolution is the ability of the telescope to differentiate two
+light signals that differ in frequency by a small amount. The closer the two signals are in
+frequency while still allowing the telescope to separate them as two distinct components, the
+higher the spectral resolution of the telescope.
+ROTATION
+The spinning motion of a celestial body around its own axis.
+SATELLITE
+A body, either natural or artificial, that revolves around a larger body. The Moon is a natural satellite
+of Earth, while the International Space Station is an artificial one.
+SENSITIVITY
+A measure of how bright objects need to be in order for a telescope to detect them. A highly sensitive
+telescope can detect dim objects, while a telescope with low sensitivity can detect only bright ones.
+SHOCK WAVE
+A strong compression wave where there is a sudden change in gas velocity, density, pressure, and
+temperature.
+SOLAR FLARES
+Violent eruptions on the Sun’s surface.
+107 Our High-Energy Universe www.nasa.gov
+SOLAR MASS
+The mass of the Sun, a convenient unit for describing the masses of other stars, star clusters,
+galaxies, and other objects. One solar mass equals 4.384 × 1030 pounds (1.988 × 1030 kilograms),
+or about 333,000 Earth masses.
+SOLAR SYSTEM
+A gravitationally bound collection of one star (the Sun), eight planets (including Earth, the only
+planet known to support life), five dwarf planets, and at least 290 moons. It is located about midway
+out from the center of our Milky Way galaxy.
+SPACE WEATHER
+Variable conditions on the Sun, in the solar wind, and near Earth (within its upper atmosphere and
+magnetosphere) that can degrade the performance and reliability of technology and endanger
+human health. Strong events are sometimes called solar storms. Solar activity is the main source
+of space weather. This includes coronal mass ejections — immense fast-moving clouds of plasma
+launched into space — and brief, sudden eruptions of X-rays from solar flares. Severe space weather
+events pose a risk to astronauts and can damage satellites, disrupt communications, and, by
+inducing additional currents in electrical transmission wires, disrupt power systems on the ground.
+SPECIAL RELATIVITY
+The physical theory of space and time developed by Albert Einstein (1879–1955), based on postulates
+that all laws of physics are equally valid in all frames of reference moving at a uniform velocity and
+that the speed of light from a uniformly moving source is always the same, regardless of how fast or
+slow the source or its observer are moving. The theory’s consequences include the relativistic mass
+increase of rapidly moving objects, time dilation, and the principle of mass-energy equivalence.
+SPEED OF LIGHT
+The speed at which electromagnetic radiation propagates in a vacuum, defined as 186,282 miles
+per second (299,792,458 meters per second). Put another way, light takes a nanosecond to travel 11.8
+inches (29.98 centimeters). Light travels at slightly slower speeds when it moves through materials
+like glass or air.
+SPIDER BINARY
+A millisecond pulsar and a lower-mass star that orbit each other as the pulsar’s emissions erode
+its companion.
+STAR
+A large ball of gas that creates and emits its own radiation.
+SUNSPOTS
+Cooler (and thus darker) regions on the Sun where loops of magnetic field rise up from the solar
+surface.
+Our High-Energy Universe
+ 7
+www.nasa.gov 108
+SUPERNOVA (PL. SUPERNOVAE)
+1. The explosion of a massive star, resulting in a sharp increase in brightness followed by a gradual
+fading. At peak light output, this type of supernova (called type II) can outshine a galaxy. The star’s
+outer layers blast outward in a radioactive cloud. Visible long after the initial explosion fades from
+view, this cloud forms a supernova remnant.
+2. The explosion of a white dwarf that has either merged with another white dwarf or has
+accumulated enough material from a companion star to reach the Chandrasekhar limit —
+the theoretical maximum mass of a white dwarf, equal to about 1.4 solar masses. This type of
+supernova (called type Ia) has roughly the same intrinsic brightness and plays an important role
+in determining distances.
+TERRESTRIAL GAMMA-RAY FLASHES
+Gamma-ray events lasting less than a millisecond that are produced by lightning in storms on
+Earth.
+TRACKER
+A subsystem of Fermi’s Large Area Telescope consisting of 16 towers of silicon detectors interleaved
+with tungsten foils that determine the direction a gamma-ray came from.
+TRACKING AND DATA RELAY SATELLITES (TDRSS)
+NASA’s network of specialized communications satellites in geosynchronous orbit that provide
+communications services to many NASA spacecraft, including Fermi.
+TRANSIENTS
+Astronomical objects that exhibit a large difference in brightness over a relatively short time, seen
+as a low, or off, state and a high, or on, state. The brighter state often, but not always, occurs only
+once. Examples include gamma-ray bursts, novae, supernovae, and blazar and solar flares.
+TRANSITIONAL PULSAR
+Millisecond pulsars in a binary system that switch rapidly between emitting one kind of emission
+to another, for example, from X-rays to radio and back.
+ULTRAVIOLET (UV)
+Electromagnetic radiation at wavelengths shorter than the violet end of visible light, ranging from
+100 to 380 nanometers. Earth’s atmosphere blocks most UV light from reaching the surface.
+
+UNIVERSE
+Everything that exists, including Earth and other planets, stars, galaxies, and all that they contain;
+the entire cosmos.
+VERY HIGH-ENERGY (VHE) GAMMA RAYS
+Gamma-rays above 100 GeV. VHE emissions result from extreme phenomena such as gammaray bursts, blazar jets, and particle acceleration in supernova remnants.
+109 Our High-Energy Universe www.nasa.gov
+VISIBLE (OPTICAL) LIGHT
+Electromagnetic radiation at wavelengths the human eye can see, ranging from red (about 750
+nanometers) to violet (380 nanometers).
+WAVELENGTH
+The distance between adjacent peaks in a series of periodic waves.
+WHITE DWARF
+A star that has exhausted most or all of its nuclear fuel and has collapsed to a size comparable to
+Earth’s. Typically, a white dwarf packs a mass roughly equal to the Sun’s into a ball just 1% the Sun’s
+size.
+X-RAY
+Electromagnetic radiation of very short wavelength and high energy. X-rays have shorter wave
+lengths than ultraviolet light but longer wavelengths than gamma rays.
+Our High-Energy Universe
+ 7
+www.nasa.gov 110
+Index
+A
+Accretion disk - Active galactic nucleus/nuclei (AGN) - Afterglow - All-sky map - Angular
+momentum - Annihilation - Anticoincidence detector (ACD) - Antimatter - Arcminute - Astronomy
+- Astrophysics - Atmosphere
+B
+Big bang - Binary stars - Black hole - Blazar
+C
+Calorimeter - Cherenkov radiation - Citizen science - Compton Gamma Ray Observatory -Compton
+scattering - Cosmic dust - Cosmic rays
+D
+Dark matter - Density - Disk - Dwarf spheroidal galaxies
+E
+Ejecta - Electromagnetic radiation (waves) - Electromagnetic spectrum - Electron - Electron volt
+(eV) - Element - Emission - Enrico Fermi - Extragalactic - Extragalactic background light
+F
+Fermi acceleration - Fermi bubbles - Fermi Gamma-ray Space Telescope - Fermi Science Support
+Center (FSSC) - Flare - Flux - Frequency
+G
+Galactic center - Galactic diffuse emission - Galactic plane - Galaxy - Galaxy cluster - Gamma
+ray - Gamma-ray burst (GRB) - Gamma-ray Burst Monitor (GBM) - Gamma-ray Large Area Space
+Telescope (GLAST) - Gas - General relativity - Gravitational waves - Gravity
+H
+High-energy astronomy - Hydrogen
+I
+Infrared - Interstellar medium
+J
+Jets
+L
+Large Area Telescope (LAT) - Light - Light-year - Limb - Lorentz invariance - Luminosity
+111 Our High-Energy Universe www.nasa.gov
+M
+Magnetar - Magnetic field - Mass - Matter - Microwave - Millisecond pulsar - Mission Operations
+Center (MOC) - Multimessenger astronomy
+N
+NASA - Nebula (pl. nebulae) - Neutrino - Neutron - Neutron star - Nova (pl. novae) - Nucleus
+(pl. nuclei)
+O
+Orbit
+P
+Pair production - Photon - Polarization - Positron - Proton - Pulsar - Pulsar timing array
+R
+Radio - Radio galaxy - Red giant - Resolution (spatial) - Resolution (spectral or frequency) - Rotation
+S
+Satellite - Sensitivity - Shock wave - Solar flares - Solar Mass - Solar system - Space weather -
+Special relativity - Speed of light - Spider binary - Star - Sunspots - Supernova (pl. supernovae)
+T
+Terrestrial gamma-ray flashes - Tracker - Tracking and Data Relay Satellites (TDRSS) - TransientsTransitional pulsar
+U
+Ultraviolet (UV) - Universe
+V
+Very high-energy (VHE) gamma rays - Visible (optical) light
+W
+Wavelength - White dwarf
+X
+X-ray
+www.nasa.gov Our High-Energy Universe 112
+
+Acknowledgements
+FERMI CREDIT
+The Fermi Gamma-ray Space Telescope is an astrophysics and particle physics partnership
+managed by NASA’s Goddard Space Flight Center. Fermi was developed in collaboration with the
+U.S. Department of Energy, with important contributions from academic institutions and partners
+in France, Germany, Italy, Japan, Sweden, and the United States.
+For this publication, the team at NASA’s Goddard Space Flight Center included: Hannah Richter
+(Writer), Jeanette Kazmierczak and Francis Reddy (Editors), Ashley Balzer (Copy Editor),
+Edward Henderson and GMG World Media (Design Team), Aurore Simonnet (Graphic Designer),
+David Thompson (Content Specialist), Elizabeth Hays and Judith Racusin (Science Advisors).
+Thank you to the LAT collaboration and GBM team for providing content and science review.
+Thank you to the Fermi Flight Operations Team and the Fermi Science Support Center for providing
+content and context.
+In reference lists, please cite this document as: National Aeronautics and Space Administration.
+Our High-Energy Universe: 15 Years with the Fermi Gamma-ray Space Telescope. NASA’s Goddard
+Space Flight Center, Greenbelt, Maryland: NASA Pub. SP-2024-4-254-GSFC, 2024. 114 pp.
+For the most recent information, follow the mission on social media
+@NASAUniverse.
+PUBLICATION CREDIT
+Our High-Energy Universe: 15 Years with the Fermi Gamma-Ray Space Telescope was produced
+by NASA’s Goddard Space Flight Center. It was published in April 2024.
+113 Our High-Energy Universe www.nasa.gov
+FOR ADDITIONAL INFORMATION, CONTACT:
+Claire Andreoli
+NASA’s Goddard Space Flight Center
+Office of Communications
+Greenbelt, MD 20771
+claire.andreoli@nasa.gov
+301-286-1940
+http://fermi.gsfc.nasa.gov
+science.nasa.gov/mission/fermi

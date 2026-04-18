@@ -3,27 +3,40 @@
 #include <string>
 #include <fstream>
 #include <chrono>
+#include <cstdint>
 
 using namespace std;
 
 struct LZ77Token {
-	int offset;
-	int length;
-	char next;
-	LZ77Token(int o = 0, int l = 0, char n = '\0') : offset(o), length(l), next(n) {}
+	bool isMatch;
+	uint16_t offset;
+	uint16_t length;
+	char literal;
+	LZ77Token(bool match = false, uint16_t o = 0, uint16_t l = 0, char ch = '\0')
+		: isMatch(match), offset(o), length(l), literal(ch) {}
 };
 
 string decompressBlock(const vector<LZ77Token>& tokens) {
 	string output;
+	size_t estimatedSize = 0;
 	for (const auto& token : tokens) {
-		if (token.offset > 0 && token.length > 0) {
-			int start = static_cast<int>(output.size()) - token.offset;
+		estimatedSize += token.isMatch ? token.length : 1;
+	}
+	output.reserve(estimatedSize);
+
+	for (const auto& token : tokens) {
+		if (token.isMatch) {
+			if (token.offset == 0 || token.length == 0 || token.offset > output.size()) {
+				return "";
+			}
+
+			int start = (int)output.size() - token.offset;
 			for (int i = 0; i < token.length; i++) {
 				output += output[start + i];
 			}
 		}
-		if (token.next != '\0') {
-			output += token.next;
+		else {
+			output += token.literal;
 		}
 	}
 	return output;
@@ -51,16 +64,38 @@ int runDecompression() {
 	vector<LZ77Token> tokens;
 	tokens.reserve(tokenCount);
 
-	for (int i = 0; i < tokenCount; i++) {
-		LZ77Token token;
-		infile.read((char*)&token.offset, sizeof(token.offset));
-		infile.read((char*)&token.length, sizeof(token.length));
-		infile.read((char*)&token.next, sizeof(token.next));
+	for (int i = 0; i < tokenCount; i += 8) {
+		uint8_t flags = 0;
+		infile.read((char*)&flags, sizeof(flags));
 		if (!infile) {
 			cout << "Unexpected end of compressed.bin\n";
 			return 1;
 		}
-		tokens.push_back(token);
+
+		int groupEnd = min(i + 8, tokenCount);
+		for (int j = i; j < groupEnd; ++j) {
+			bool isMatch = ((flags >> (j - i)) & 1u) != 0;
+			if (isMatch) {
+				uint16_t offset = 0;
+				uint16_t length = 0;
+				infile.read((char*)&offset, sizeof(offset));
+				infile.read((char*)&length, sizeof(length));
+				if (!infile) {
+					cout << "Unexpected end of compressed.bin\n";
+					return 1;
+				}
+				tokens.emplace_back(true, offset, length, '\0');
+			}
+			else {
+				char literal = '\0';
+				infile.read((char*)&literal, sizeof(literal));
+				if (!infile) {
+					cout << "Unexpected end of compressed.bin\n";
+					return 1;
+				}
+				tokens.emplace_back(false, 0, 0, literal);
+			}
+		}
 	}
 
 	infile.close();
@@ -69,6 +104,11 @@ int runDecompression() {
 	string decompressed = decompressBlock(tokens);
 	auto decompressionEnd = chrono::high_resolution_clock::now();
 	auto decompressionMs = chrono::duration_cast<chrono::milliseconds>(decompressionEnd - decompressionStart);
+
+	if (decompressed.empty() && !tokens.empty()) {
+		cout << "Invalid compressed token stream\n";
+		return 1;
+	}
 
 	cout << "Decompression time: " << decompressionMs.count() << " ms\n";
 

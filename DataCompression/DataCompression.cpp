@@ -7,84 +7,231 @@
 #include <iterator>
 #include <chrono>
 #include <iomanip>
+#include <filesystem>
+#include <array>
+#include <cstdint>
+#include <limits>
 
 using namespace std;
+namespace fs = std::filesystem;
 
-const int WINDOW_SIZE = 8192; // Size of the sliding window
-const int BUFFER_SIZE = 256;  // Size of the look-ahead buffer
+const int WINDOW_SIZE = 16384;
+const int BUFFER_SIZE = 512;
+const int MAX_CANDIDATE_MATCHES = 64;
+const int MIN_MATCH_LENGTH = 3;
+const char* PRIMARY_CASES_DIRECTORY = "TestCases";
+const char* FALLBACK_CASES_DIRECTORY = "DataCompression/TestCases";
+const char* LAST_CASE_METADATA_PATH = "last_case.txt";
 
 struct LZ77Token {
-	int offset; // Distance to the start of the match
-	int length; // Length of the match
-	char next;  // Next character after the match
-	LZ77Token(int o = 0, int l = 0, char n = '\0') : offset(o), length(l), next(n) {}
+	bool isMatch;
+	uint16_t offset;
+	uint16_t length;
+	char literal;
+	LZ77Token(bool match = false, uint16_t o = 0, uint16_t l = 0, char ch = '\0')
+		: isMatch(match), offset(o), length(l), literal(ch) {}
 };
+
+struct TestCase {
+	string name;
+	string path;
+};
+
+string getCasesDirectory() {
+	if (fs::exists(PRIMARY_CASES_DIRECTORY)) {
+		return PRIMARY_CASES_DIRECTORY;
+	}
+	if (fs::exists(FALLBACK_CASES_DIRECTORY)) {
+		return FALLBACK_CASES_DIRECTORY;
+	}
+	return "";
+}
+
+vector<TestCase> findTestCases() {
+	vector<TestCase> cases;
+	string casesDirectory = getCasesDirectory();
+	if (casesDirectory.empty()) {
+		return cases;
+	}
+
+	for (const auto& entry : fs::directory_iterator(casesDirectory)) {
+		if (!entry.is_regular_file() || entry.path().extension() != ".txt") {
+			continue;
+		}
+
+		string filename = entry.path().filename().string();
+		if (filename == "test_cases.txt") {
+			continue;
+		}
+
+		cases.push_back({ entry.path().stem().string(), entry.path().generic_string() });
+	}
+
+	sort(cases.begin(), cases.end(), [](const TestCase& a, const TestCase& b) {
+		return a.name < b.name;
+	});
+
+	return cases;
+}
+
+string readLastCasePath() {
+	ifstream infile(LAST_CASE_METADATA_PATH);
+	if (!infile.is_open()) {
+		return "";
+	}
+
+	string path;
+	getline(infile, path);
+	return path;
+}
+
+void writeLastCaseMetadata(const TestCase& testCase) {
+	ofstream outfile(LAST_CASE_METADATA_PATH);
+	if (!outfile.is_open()) {
+		return;
+	}
+
+	outfile << testCase.path << '\n' << testCase.name << '\n';
+}
+
+int findDefaultCaseIndex(const vector<TestCase>& cases) {
+	string lastPath = readLastCasePath();
+	for (int i = 0; i < (int)cases.size(); ++i) {
+		if (cases[i].path == lastPath) {
+			return i;
+		}
+	}
+	return 0;
+}
+
+int chooseCaseIndex(const vector<TestCase>& cases) {
+	if (cases.empty()) {
+		return -1;
+	}
+
+	int defaultIndex = findDefaultCaseIndex(cases);
+
+	cout << "Available test cases:\n";
+	for (int i = 0; i < (int)cases.size(); ++i) {
+		cout << setw(2) << (i + 1) << ". " << cases[i].name;
+		if (i == defaultIndex) {
+			cout << "  [current]";
+		}
+		cout << '\n';
+	}
+
+	while (true) {
+		cout << "Enter case number: ";
+		string selection;
+		getline(cin, selection);
+
+		try {
+			int selected = stoi(selection);
+			if (selected >= 1 && selected <= (int)cases.size()) {
+				return selected - 1;
+			}
+		}
+		catch (...) {
+		}
+
+		cout << "Invalid selection. Please enter a number between 1 and " << cases.size() << ".\n";
+	}
+}
 
 // Designed to work on a block of data. By passing start and end indices,
 // it enables easy future division of data amongst parallel workers (e.g., MPI nodes).
 vector<LZ77Token> compressBlock(const string& input, int start_idx = 0, int end_idx = -1) {
-	if (end_idx == -1) end_idx = input.length();
+	if (end_idx == -1) end_idx = (int)input.length();
 
 	vector<LZ77Token> output;
+	output.reserve(max(1, (end_idx - start_idx) / 2));
+
+	array<vector<int>, 256> positionsByByte;
+	array<size_t, 256> activeStart{};
+
 	int buffer_pos = start_idx;
-
 	while (buffer_pos < end_idx) {
-		int match_length = 0;
-		int match_offset = 0;
-		char next_char = input[buffer_pos]; // Default to next character without match
+		int bestLength = 0;
+		int bestOffset = 0;
 
-		// Define our sliding window boundaries
-		int window_start = max(start_idx, buffer_pos - WINDOW_SIZE);
+		unsigned char currentKey = static_cast<unsigned char>(input[buffer_pos]);
+		auto& positions = positionsByByte[currentKey];
+		size_t& startIndex = activeStart[currentKey];
 
-		// Search for the longest match in the window
-		for (int i = window_start; i < buffer_pos; i++) {
+		int windowStart = max(start_idx, buffer_pos - WINDOW_SIZE);
+		while (startIndex < positions.size() && positions[startIndex] < windowStart) {
+			++startIndex;
+		}
+
+		int candidatesChecked = 0;
+		for (size_t idx = positions.size(); idx > startIndex && candidatesChecked < MAX_CANDIDATE_MATCHES; --idx, ++candidatesChecked) {
+			int i = positions[idx - 1];
 			int len = 0;
 			while (len < BUFFER_SIZE &&
 				buffer_pos + len < end_idx &&
 				input[i + len] == input[buffer_pos + len]) {
-				len++;
+				++len;
 			}
 
-			if (len > match_length) {
-				match_length = len;
-				match_offset = buffer_pos - i;
-
-				// Get the next char after the match, or null if it reaches the end of block
-				if (buffer_pos + match_length < end_idx) {
-					next_char = input[buffer_pos + match_length];
-				}
-				else {
-					next_char = '\0';
+			if (len > bestLength) {
+				bestLength = len;
+				bestOffset = buffer_pos - i;
+				if (bestLength == BUFFER_SIZE) {
+					break;
 				}
 			}
 		}
 
-		if (match_length == 0) {
-			output.push_back(LZ77Token(0, 0, input[buffer_pos]));
-			buffer_pos++;
+		int advance = 1;
+		if (bestLength >= MIN_MATCH_LENGTH) {
+			output.emplace_back(true, (uint16_t)bestOffset, (uint16_t)bestLength, '\0');
+			advance = bestLength;
 		}
 		else {
-			output.push_back(LZ77Token(match_offset, match_length, next_char));
-			buffer_pos += match_length + 1;
+			output.emplace_back(false, 0, 0, input[buffer_pos]);
 		}
+
+		int consumedEnd = min(end_idx, buffer_pos + advance);
+		for (int pos = buffer_pos; pos < consumedEnd; ++pos) {
+			unsigned char key = static_cast<unsigned char>(input[pos]);
+			positionsByByte[key].push_back(pos);
+		}
+
+		buffer_pos += advance;
 	}
 	return output;
 }
 
 int runCompression() {
-	ifstream infile("TestCases/test_data.txt", ios::binary);
+	vector<TestCase> cases = findTestCases();
 	string text;
+	TestCase selectedCase{ "default", "" };
 
-	if (infile.is_open()) {
-		text.assign(istreambuf_iterator<char>(infile), istreambuf_iterator<char>());
-		infile.close();
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+	if (!cases.empty()) {
+		int caseIndex = chooseCaseIndex(cases);
+		if (caseIndex >= 0) {
+			selectedCase = cases[caseIndex];
+			ifstream infile(selectedCase.path, ios::binary);
+			if (infile.is_open()) {
+				text.assign(istreambuf_iterator<char>(infile), istreambuf_iterator<char>());
+				infile.close();
+			}
+		}
 	}
 
 	if (text.empty()) {
-		cout << "Could not open test_data.txt or it is empty. Using default dataset.\n";
+		cout << "Could not load selected test case. Using default dataset.\n";
 		text = "abracadabraabracadabra";
+		selectedCase = { "default_fallback", "" };
 	}
 
+	cout << "Selected case: " << selectedCase.name;
+	if (!selectedCase.path.empty()) {
+		cout << " (" << selectedCase.path << ")";
+	}
+	cout << "\n";
 	cout << "Input size: " << text.size() << " characters\n";
 
 	auto compressionStart = chrono::high_resolution_clock::now();
@@ -93,18 +240,17 @@ int runCompression() {
 	auto compressionMs = chrono::duration_cast<chrono::milliseconds>(compressionEnd - compressionStart);
 
 	int originalBytes = (int)text.size();
-	int compressedBytes = (int)compressed.size() * (sizeof(int) * 2 + sizeof(char)); // Each token has 2 ints and 1 char
 	int tokenCount = (int)compressed.size();
-
-	double compressionPercent = 0.0;
-	if (originalBytes > 0) {
-		compressionPercent = compressedBytes * 100.0 / originalBytes;
+	int compressedBytes = (int)sizeof(tokenCount);
+	compressedBytes += (tokenCount + 7) / 8;
+	for (const auto& token : compressed) {
+		compressedBytes += token.isMatch ? (int)(sizeof(uint16_t) * 2) : (int)sizeof(char);
 	}
 
 	cout << "Compression time: " << compressionMs.count() << " ms\n";
 	cout << "Original size: " << originalBytes << " bytes\n";
 	cout << "Compressed size: " << compressedBytes << " bytes\n";
-	cout << "Compression ratio: " << fixed << setprecision(2) << compressionPercent << "%\n";
+	cout << "Compression ratio: " << fixed << setprecision(2) << (compressedBytes * 100.0 / originalBytes) << "%\n";
 
 	ofstream outfile("compressed.bin", ios::binary);
 	if (!outfile.is_open()) {
@@ -114,10 +260,25 @@ int runCompression() {
 
 	outfile.write((char*)&tokenCount, sizeof(tokenCount));
 
-	for (const auto& token : compressed) {
-		outfile.write((char*)&token.offset, sizeof(token.offset));
-		outfile.write((char*)&token.length, sizeof(token.length));
-		outfile.write((char*)&token.next, sizeof(token.next));
+	for (int i = 0; i < tokenCount; i += 8) {
+		uint8_t flags = 0;
+		int groupEnd = min(i + 8, tokenCount);
+		for (int j = i; j < groupEnd; ++j) {
+			if (compressed[j].isMatch) {
+				flags |= (uint8_t)(1u << (j - i));
+			}
+		}
+		outfile.write((char*)&flags, sizeof(flags));
+
+		for (int j = i; j < groupEnd; ++j) {
+			if (compressed[j].isMatch) {
+				outfile.write((char*)&compressed[j].offset, sizeof(compressed[j].offset));
+				outfile.write((char*)&compressed[j].length, sizeof(compressed[j].length));
+			}
+			else {
+				outfile.write((char*)&compressed[j].literal, sizeof(compressed[j].literal));
+			}
+		}
 	}
 
 	outfile.close();
@@ -129,10 +290,17 @@ int runCompression() {
 	}
 
 	for (const auto& token : compressed) {
-		int nextValue = (unsigned char)token.next;
-		txtOutfile << token.offset << ' ' << token.length << ' ' << nextValue << '\n';
+		if (token.isMatch) {
+			txtOutfile << "M " << token.offset << ' ' << token.length << '\n';
+		}
+		else {
+			int nextValue = (unsigned char)token.literal;
+			txtOutfile << "L " << nextValue << '\n';
+		}
 	}
 	txtOutfile.close();
+
+	writeLastCaseMetadata(selectedCase);
 
 	cout << "Compression complete. Tokens: " << compressed.size() << "\n";
 	cout << "Output file: compressed.bin\n";

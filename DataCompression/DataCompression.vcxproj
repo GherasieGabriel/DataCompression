@@ -26,13 +26,10 @@
   <ItemGroup>
     <Text Include="compressed.txt" />
     <Text Include="decompressed.txt" />
-    <Text Include="TestCases\large_case_01_repetitive.txt" />
-    <Text Include="TestCases\large_case_02_random.txt" />
-    <Text Include="TestCases\large_case_03_natural.txt" />
-    <Text Include="TestCases\large_case_04_mixed_blocks.txt" />
-    <Text Include="TestCases\large_case_05_science_book.txt" />
-    <Text Include="TestCases\large_case_06_libary_of_babel_random_words.txt" />
     <Text Include="TestCases\photo.txt" />
+    <Text Include="TestCases\small_case_01_palindrome_like.txt" />
+    <Text Include="TestCases\small_case_02_symbols_numbers.txt" />
+    <Text Include="TestCases\small_case_03_csv_like.txt" />
     <Text Include="TestCases\test_cases.txt" />
     <Text Include="TestCases\test_data.txt" />
   </ItemGroup>

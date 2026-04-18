@@ -1,0 +1,7 @@
+name,city,score
+alice,paris,88
+bob,oslo,91
+alice,paris,88
+bob,oslo,91
+alice,paris,88
+bob,oslo,91

@@ -19,6 +19,17 @@ string readFileContents(const string& path) {
 	return string(istreambuf_iterator<char>(infile), istreambuf_iterator<char>());
 }
 
+string readSelectedCasePath() {
+	ifstream infile("last_case.txt");
+	if (!infile.is_open()) {
+		return "";
+	}
+
+	string selectedPath;
+	getline(infile, selectedPath);
+	return selectedPath;
+}
+
 void recordDataLossReport(const string& original, const string& decompressed) {
 	int originalSize = (int)original.size();
 	int decompressedSize = (int)decompressed.size();
@@ -47,12 +58,12 @@ void recordDataLossReport(const string& original, const string& decompressed) {
 	else if (decompressedSize > 0) {
 		lossPercent = 100.0;
 	}
-	if (totalDifferentBytes == 0) 
+	if (totalDifferentBytes == 0)
 		cout << "OK (0.00% loss)\n";
 
-	else 
+	else
 		cout << "LOSS (" << fixed << setprecision(2) << lossPercent << "% loss)\n";
-	
+
 }
 
 int main() {
@@ -82,7 +93,8 @@ int main() {
 			return decompressionResult;
 		}
 
-		string original = readFileContents("TestCases/test_data.txt");
+		string selectedCasePath = readSelectedCasePath();
+		string original = selectedCasePath.empty() ? "" : readFileContents(selectedCasePath);
 		if (original.empty()) {
 			original = "abracadabraabracadabra";
 		}
